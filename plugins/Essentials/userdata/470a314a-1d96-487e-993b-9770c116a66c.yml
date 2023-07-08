@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 5.132.109.70
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1688815307872
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1688815671811
+  login: 1688814141844
+money: '0'
+last-account-name: RedReflex
+lastlocation:
+  world: 99daf602-e152-4720-87ae-1013a4aa1c73
+  world-name: world
+  x: -15.5
+  y: 308.0
+  z: -23.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 99daf602-e152-4720-87ae-1013a4aa1c73
+  world-name: world
+  x: -31.059857589530292
+  y: 307.0
+  z: -53.71949539002217
+  yaw: 159.77491760253906
+  pitch: 40.500099182128906

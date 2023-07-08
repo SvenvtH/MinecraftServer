@@ -1,380 +1,429 @@
-[14:30:46] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[14:30:47] [ServerMain/INFO]: Loaded 7 recipes
-[14:30:48] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[14:30:48] [Server thread/INFO]: Loading properties
-[14:30:48] [Server thread/INFO]: This server is running Paper version git-Paper-65 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: dadd8b5)
-[14:30:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[14:30:48] [Server thread/INFO]: Using 4 threads for Netty based IO
-[14:30:48] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[11:02:02] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11:02:04] [ServerMain/INFO]: Loaded 7 recipes
+[11:02:04] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[11:02:04] [Server thread/WARN]: ****************************
+[11:02:04] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[11:02:04] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[11:02:04] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[11:02:04] [Server thread/WARN]: ****************************
+[11:02:04] [Server thread/INFO]: Loading properties
+[11:02:05] [Server thread/INFO]: This server is running Paper version git-Paper-65 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: dadd8b5)
+[11:02:05] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:02:05] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:02:05] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[14:30:48] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and gen parallelism of 4 threads
-[14:30:49] [Server thread/INFO]: Default game type: SURVIVAL
-[14:30:49] [Server thread/INFO]: Generating keypair
-[14:30:49] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:30:49] [Server thread/INFO]: Using default channel type
-[14:30:49] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[14:30:49] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[14:30:49] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.15+6463-5ca4dff
-[14:30:50] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@92b7034]
-[14:30:50] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.2-SNAPSHOT (b59-2278589)
-[14:30:50] [Server thread/INFO]: [floodgate] Took 469ms to boot Floodgate
-[14:30:50] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9-beta1+2249-223b80c
-[14:30:50] [Server thread/INFO]: [Lands] Loading server plugin Lands v6.30.1
-[14:30:51] [Server thread/INFO]: [Lands] Added flag 'lands-claim' to the plugin WorldGuard.
-[14:30:51] [Server thread/INFO]: [TradeShop] Loading server plugin TradeShop v2.6.0-STABLE
-[14:30:51] [Server thread/INFO]: [SmoothTimber] Loading server plugin SmoothTimber v1.24.6
-[14:30:51] [Server thread/INFO]: [SilkSpawners] Loading server plugin SilkSpawners v7.5.0
-[14:30:51] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.3.3
-[14:30:51] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.98
-[14:30:51] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.1.2-SNAPSHOT
-[14:30:52] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[14:30:52] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[14:30:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:30:52] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.15+6463-5ca4dff
-[14:30:52] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[14:30:52] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[14:30:52] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
-[14:30:53] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.3.3
-[14:30:53] [Server thread/WARN]: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[14:30:53] [Server thread/WARN]: It seems like you're running on paper.
-[14:30:53] [Server thread/WARN]: This may cause issues.
-[14:30:53] [Server thread/WARN]: If you encounter any issues, please join my dicord: https://discord.gg/dBhfCzdZxq
-[14:30:53] [Server thread/WARN]: Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
-[14:30:53] [Server thread/WARN]: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[14:30:53] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.98
-[14:30:54] [Server thread/INFO]:         __    
-[14:30:54] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.98
-[14:30:54] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[14:30:54] [Server thread/INFO]: 
-[14:30:54] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[14:30:54] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[14:30:54] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[14:30:55] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[14:30:55] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1564ms)
-[14:30:55] [Server thread/INFO]: Preparing level "world"
-[14:30:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:30:56] [Server thread/INFO]: Time elapsed: 456 ms
-[14:30:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[14:30:56] [Server thread/INFO]: Time elapsed: 29 ms
-[14:30:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[14:30:56] [Server thread/INFO]: Time elapsed: 25 ms
-[14:30:56] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.2-SNAPSHOT (b59-2278589)
-[14:30:57] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9-beta1+2249-223b80c
-[14:30:57] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[14:30:57] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[14:30:57] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[14:30:57] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[14:30:57] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[14:30:57] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[14:30:57] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[14:30:57] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[14:30:57] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[14:30:57] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[14:30:57] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[14:30:57] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[14:30:57] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[14:30:57] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[14:30:57] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[14:30:57] [Server thread/INFO]: [WorldGuard] Loading region data...
-[14:30:57] [Server thread/INFO]: [Lands] Enabling Lands v6.30.1
-[14:30:58] [Server thread/INFO]: [Lands]  _                        _      
-[14:30:58] [Server thread/INFO]: [Lands] | |                      | |     
-[14:30:58] [Server thread/INFO]: [Lands] | |      __ _  _ __    __| | ___ 
-[14:30:58] [Server thread/INFO]: [Lands] | |     / _` || '_ \  / _` |/ __|
-[14:30:58] [Server thread/INFO]: [Lands] | |____| (_| || | | || (_| |\__ \
-[14:30:58] [Server thread/INFO]: [Lands] \_____/ \__,_||_| |_| \__,_||___/
-[14:30:58] [Server thread/INFO]: [Lands] Version: 6.30.1 Previous: 6.30.1
-[14:30:58] [Server thread/INFO]: [Lands] Server: 1.20.x running Paper
-[14:30:58] [Server thread/INFO]: [Lands] Licensed to: 888480
-[14:30:58] [Server thread/INFO]: [Lands] Experiencing issues or having questions? Join our Discord!
-[14:30:58] [Server thread/INFO]: [Lands] Discord: https://discord.gg/B4MAJVk
-[14:30:58] [Server thread/INFO]: [Lands] Wiki: https://github.com/Angeschossen/Lands/wiki
-[14:30:58] [Server thread/INFO]: [Lands]  
-[14:30:58] [Server thread/INFO]: [Lands] Using SQLite.
-[14:30:58] [Server thread/INFO]: [Lands] Setting up tables...
-[14:30:58] [Server thread/INFO]: [Lands] Your SQL DBMS version: 3.42.0 (SQLite) Wiki: https://github.com/Angeschossen/Lands/wiki/Database
-[14:30:58] [Server thread/INFO]: [Lands] Successfully connected to SQL database.
-[14:30:58] [Server thread/INFO]: [Lands] Performing initial data load.
-[14:30:58] [Server thread/INFO]: [Lands] There are currently 1 created land(s).
-[14:30:58] [Server thread/INFO]: [Lands] Initial data load took 34 ms.
-[14:30:58] [Server thread/INFO]: [TradeShop] Enabling TradeShop v2.6.0-STABLE
-[14:30:58] [Server thread/INFO]: [TradeShop] Data storage set to: FLATFILE
-[14:30:58] [Thread-12/INFO]: [TradeShop] [Updater] You are running the latest version of the plugin!
-[14:30:58] [Server thread/INFO]: [TradeShop] Metrics successfully initialized!
-[14:30:58] [Server thread/INFO]: [SmoothTimber] Enabling SmoothTimber v1.24.6
-[14:30:58] [Server thread/INFO]: SmoothTimber || You're currently using the supported Minecraft Version 1.20.1 (Core v1_20x)
-[14:30:58] [Server thread/INFO]: SmoothTimber || Trying to enable compatibility addon 'Lands' for plugin 'Lands'...
-[14:30:58] [Server thread/INFO]: [Lands] [Integrations] 3rd party plugin hooking into Lands: SmoothTimber
-[14:30:58] [Server thread/INFO]: [Lands] Nag author(s) of plugin SmoothTimber. It uses the deprecated LandsIntegration of Lands: https://github.com/Angeschossen/LandsAPI/wiki/API-Update
-[14:30:58] [Server thread/INFO]: SmoothTimber || Successfully enabled compatbility addon 'Lands' for plugin 'Lands'...
-[14:30:58] [Server thread/INFO]: SmoothTimber || Trying to enable compatibility addon 'WorldGuard' for plugin 'WorldGuard'...
-[14:30:58] [Server thread/INFO]: SmoothTimber || Successfully enabled compatbility addon 'WorldGuard' for plugin 'WorldGuard'...
-[14:30:58] [Server thread/INFO]: [SilkSpawners] Enabling SilkSpawners v7.5.0
-[14:30:58] [Server thread/INFO]: [SilkSpawners] WorldGuard was found and support is enabled
-[14:30:58] [Server thread/INFO]: [SilkSpawners] Loading support for v1_20_R1
-[14:30:58] [Server thread/INFO]: [SilkSpawners] AutoUpdater is enabled and now running.
-[14:30:58] [Server thread/INFO]: [SilkSpawners] BarAPI is disabled due to config setting.
-[14:30:58] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.1.2-SNAPSHOT
-[14:30:59] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[14:30:59] [Server thread/INFO]: [Geyser-Spigot] 
-[14:30:59] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.1.2-SNAPSHOT (git-master-0e3e2d0)
-[14:30:59] [Server thread/INFO]: [Geyser-Spigot] 
-[14:30:59] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[14:31:01] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
-[14:31:01] [Server thread/INFO]: [Geyser-Spigot] Done (2,494s)! Run /geyser help for help!
-[14:31:01] [Server thread/INFO]: Running delayed init tasks
-[14:31:01] [Server thread/INFO]: [SilkSpawners] Result from AutoUpdater is: NO_UPDATE
-[14:31:01] [Server thread/INFO]: [Lands] [Integrations] Successfully integrated LuckPerms for offline permission lookups.
-[14:31:01] [Server thread/INFO]: [Lands] [Integrations] Integrated geyser forms for Bedrock players.
-[14:31:01] [Server thread/INFO]: [Lands] Successfully added region provider: WorldGuard Type: SERVER
-[14:31:01] [Server thread/INFO]: Done (13.078s)! For help, type "help"
-[14:31:01] [Server thread/INFO]: Timings Reset
-[14:31:02] [User Authenticator #0/INFO]: UUID of player RedReflex is 470a314a-1d96-487e-993b-9770c116a66c
-[14:31:02] [Server thread/INFO]: RedReflex joined the game
-[14:31:02] [Server thread/INFO]: RedReflex[/127.0.0.1:65407] logged in with entity id 137 at ([world]312.25413768480126, 72.0, 566.3003975751824)
-[14:31:02] [Server thread/INFO]: [Lands] Using default item currency for economy. You can edit the currency item in your gui language file. Item: ItemStack{GOLD_INGOT x 1} Strict mode: false
-[14:31:02] [Server thread/INFO]: [Lands] [Integrations] Successfully integrated WorldEdit. Bypass: lands.bypass.worldedit Wilderness-Bypass: lands.bypass.wilderness.worldedit
-[14:31:02] [Server thread/INFO]: [Lands] [Integrations] Successfully loaded LuckPerms contexts. More information: https://github.com/Angeschossen/Lands/wiki/Luckperms-Context
-[14:31:06] [ForkJoinPool.commonPool-worker-2/INFO]: [Lands] There is a new version available: 6.32.5
-[14:31:39] [Server thread/INFO]: RedReflex issued server command: /time set day
-[14:31:39] [Server thread/INFO]: [RedReflex: Set the time to 1000]
-[14:32:31] [Server thread/INFO]: RedReflex issued server command: /tp @e[type=item] RedReflex
-[14:32:31] [Server thread/INFO]: [RedReflex: Teleported 38 entities to RedReflex]
-[14:32:46] [Server thread/INFO]: RedReflex issued server command: /plugman
-[14:32:47] [Server thread/INFO]: RedReflex issued server command: /pl
-[14:32:51] [Server thread/INFO]: RedReflex issued server command: /help
-[14:32:55] [Server thread/INFO]: RedReflex issued server command: /help plugmanx
-[14:33:05] [Server thread/INFO]: RedReflex issued server command: /plugman
-[14:33:22] [Server thread/INFO]: --------------------- [ PlugMan ] ---------------------
-[14:33:22] [Server thread/INFO]: - /plugman help - Displays this.
-[14:33:22] [Server thread/INFO]: - /plugman list [-v] - List all plugins (-v shows versions).
-[14:33:22] [Server thread/INFO]: - /plugman dump - Dump plugin names and versions to file.
-[14:33:22] [Server thread/INFO]: - /plugman info <plugin> - Get info on a plugin.
-[14:33:22] [Server thread/INFO]: - /plugman usage <plugin> - List commands a plugin has registered.
-[14:33:22] [Server thread/INFO]: - /plugman lookup <command> - Find the plugin a command is registered to.
-[14:33:22] [Server thread/INFO]: - /plugman enable <plugin|all> - Enable a plugin.
-[14:33:22] [Server thread/INFO]: - /plugman disable <plugin|all> - Disable a plugin.
-[14:33:22] [Server thread/INFO]: - /plugman restart <plugin|all> - Restart a plugin.
-[14:33:22] [Server thread/INFO]: - /plugman load <plugin> - Load a plugin.
-[14:33:22] [Server thread/INFO]: - /plugman download <direct|spigot> <ID|URL> - Download and load a plugin.
-[14:33:22] [Server thread/INFO]: - /plugman reload <plugin|all> - Reload a plugin.
-[14:33:22] [Server thread/INFO]: - /plugman unload <plugin> - Unload a plugin.
-[14:33:22] [Server thread/INFO]: - /plugman check <plugin|all> [-f] - Check if a plugin is up-to-date (-f dumps to file for all).
-[14:33:25] [luckperms-command-executor/INFO]: [LP] Preparing a new editor session, please wait...
-[14:33:25] [luckperms-command-executor/INFO]: [LP] Click the link below to open the editor:
-[14:33:25] [luckperms-command-executor/INFO]: https://luckperms.net/editor/2nVo9LWPuR
-[14:33:27] [luckperms-worker-9/INFO]: [LP] Editor window connected successfully.
-[14:33:46] [luckperms-worker-9/INFO]: [LP] Changes have been received from the connected web editor session.
-[14:33:46] [luckperms-worker-9/INFO]: [LP] Web editor data was applied to group admin (Admin) successfully.
-[14:33:46] [luckperms-worker-9/INFO]: [LP] (2 additions and 0 deletions)
-[14:33:46] [luckperms-worker-9/INFO]: +  plugman.admin (true)
-[14:33:46] [luckperms-worker-9/INFO]: +  plugman.* (true)
-[14:33:49] [Server thread/INFO]: RedReflex issued server command: /plugman
-[14:34:12] [Server thread/INFO]: RedReflex issued server command: /enchant RedReflex minecraft:fortune
-[14:34:12] [Server thread/INFO]: [RedReflex: Applied enchantment Fortune I to RedReflex's item]
-[14:34:13] [Server thread/INFO]: RedReflex issued server command: /enchant RedReflex minecraft:fortune 2
-[14:34:19] [Server thread/INFO]: RedReflex issued server command: /enchant RedReflex minecraft:fortune 0
-[14:34:25] [Server thread/INFO]: RedReflex issued server command: /give RedReflex diamond_axe
-[14:34:25] [Server thread/INFO]: [RedReflex: Gave 1 [Diamond Axe] to RedReflex]
-[14:34:28] [Server thread/INFO]: RedReflex issued server command: /enchant RedReflex minecraft:efficiency 5
-[14:34:28] [Server thread/INFO]: [RedReflex: Applied enchantment Efficiency V to RedReflex's item]
-[14:34:29] [Server thread/INFO]: RedReflex issued server command: /enchant RedReflex minecraft:unbreaking 3
-[14:34:29] [Server thread/INFO]: [RedReflex: Applied enchantment Unbreaking III to RedReflex's item]
-[14:34:32] [Server thread/INFO]: RedReflex issued server command: /enchant RedReflex minecraft:fortune 3
-[14:34:32] [Server thread/INFO]: [RedReflex: Applied enchantment Fortune III to RedReflex's item]
-[14:34:41] [Craft Scheduler Thread - 18 - SmoothTimber/INFO]: SmoothTimber || Detected a setting change, reloading settings...
-[14:34:41] [Craft Scheduler Thread - 18 - SmoothTimber/INFO]: SmoothTimber || settings reloaded successfully!
-[14:34:53] [Server thread/INFO]: RedReflex issued server command: /plugman
-[14:34:53] [Craft Scheduler Thread - 18 - SmoothTimber/INFO]: SmoothTimber || Detected a setting change, reloading settings...
-[14:34:53] [Craft Scheduler Thread - 18 - SmoothTimber/INFO]: SmoothTimber || settings reloaded successfully!
-[14:34:58] [Server thread/INFO]: RedReflex issued server command: /plugman reload SmoothTimber
-[14:34:58] [Server thread/INFO]: [SmoothTimber] Disabling SmoothTimber v1.24.6
-[14:34:58] [Server thread/INFO]: [SmoothTimber] Loading server plugin SmoothTimber v1.24.6
-[14:34:58] [Server thread/INFO]: [SmoothTimber] Enabling SmoothTimber v1.24.6
-[14:34:58] [Server thread/INFO]: SmoothTimber || You're currently using the supported Minecraft Version 1.20.1 (Core v1_20x)
-[14:34:58] [Server thread/INFO]: SmoothTimber || Trying to enable compatibility addon 'Lands' for plugin 'Lands'...
-[14:34:58] [Server thread/INFO]: [Lands] Nag author(s) of plugin SmoothTimber. It uses the deprecated LandsIntegration of Lands: https://github.com/Angeschossen/LandsAPI/wiki/API-Update
-[14:34:58] [Server thread/INFO]: SmoothTimber || Successfully enabled compatbility addon 'Lands' for plugin 'Lands'...
-[14:34:58] [Server thread/INFO]: SmoothTimber || Trying to enable compatibility addon 'WorldGuard' for plugin 'WorldGuard'...
-[14:34:58] [Server thread/INFO]: SmoothTimber || Successfully enabled compatbility addon 'WorldGuard' for plugin 'WorldGuard'...
-[14:35:08] [Server thread/INFO]: RedReflex issued server command: /clear
-[14:35:08] [Server thread/INFO]: [RedReflex: Removed 214 item(s) from player RedReflex]
-[14:35:29] [Server thread/INFO]: RedReflex issued server command: /gamemode creative
-[14:35:29] [Server thread/INFO]: [RedReflex: Set own game mode to Creative Mode]
-[14:35:34] [Server thread/INFO]: RedReflex issued server command: /gamemode survival
-[14:35:34] [Server thread/INFO]: [RedReflex: Set own game mode to Survival Mode]
-[14:36:02] [Server thread/INFO]: RedReflex issued server command: /clear
-[14:36:02] [Server thread/INFO]: [RedReflex: Removed 52 item(s) from player RedReflex]
-[14:36:16] [Server thread/INFO]: RedReflex issued server command: /pl
-[14:36:18] [Server thread/INFO]: RedReflex issued server command: /tradeshop
-[14:36:24] [Server thread/INFO]: RedReflex issued server command: /plugman
-[14:36:33] [Server thread/INFO]: RedReflex issued server command: /plugman check -f
-[14:36:39] [Server thread/INFO]: RedReflex issued server command: /plugman check all
-[14:37:05] [Server thread/INFO]: RedReflex issued server command: /give RedReflex minecraft:cooked_porkchop 16
-[14:37:05] [Server thread/INFO]: [RedReflex: Gave 16 [Cooked Porkchop] to RedReflex]
-[14:37:12] [Server thread/INFO]: RedReflex issued server command: /give RedReflex spawner
-[14:37:12] [Server thread/INFO]: [RedReflex: Gave 1 [Monster Spawner] to RedReflex]
-[14:37:19] [Server thread/INFO]: RedReflex issued server command: /give RedReflex minecraft:diamond_pickaxe
-[14:37:19] [Server thread/INFO]: [RedReflex: Gave 1 [Diamond Pickaxe] to RedReflex]
-[14:37:25] [Server thread/INFO]: RedReflex issued server command: /enchant @s minecraft:silk_touch 5
-[14:37:26] [Server thread/INFO]: RedReflex issued server command: /enchant @s minecraft:silk_touch 1
-[14:37:26] [Server thread/INFO]: [RedReflex: Applied enchantment Silk Touch to RedReflex's item]
-[14:37:33] [Server thread/INFO]: RedReflex issued server command: /give RedReflex minecraft:skeleton_spawn_egg
-[14:37:33] [Server thread/INFO]: [RedReflex: Gave 1 [Skeleton Spawn Egg] to RedReflex]
-[14:37:50] [Server thread/INFO]: RedReflex issued server command: /lp editor
-[14:37:52] [Server thread/INFO]: RedReflex issued server command: /lp trusteditor 861d-a698
-[14:39:12] [luckperms-worker-15/INFO]: [LP] LOG > (RedReflex) [G] (survival)
-[14:39:12] [luckperms-worker-15/INFO]: [LP] LOG > webeditor add silkspawners.place.* true
-[14:39:12] [luckperms-worker-15/INFO]: [LP] LOG > (RedReflex) [G] (survival)
-[14:39:12] [luckperms-worker-15/INFO]: [LP] LOG > webeditor add silkspawners.silkdrop.* true
-[14:39:25] [Server thread/INFO]: RedReflex issued server command: /give RedReflex minecraft:diamond_pickaxe
-[14:39:25] [Server thread/INFO]: [RedReflex: Gave 1 [Diamond Pickaxe] to RedReflex]
-[14:39:42] [luckperms-worker-15/INFO]: [LP] LOG > (RedReflex) [G] (admin)
-[14:39:42] [luckperms-worker-15/INFO]: [LP] LOG > webeditor add silkspawners.* true
-[14:41:12] [Server thread/INFO]: RedReflex issued server command: /time set day
-[14:41:12] [Server thread/INFO]: [RedReflex: Set the time to 1000]
-[14:41:30] [luckperms-worker-15/INFO]: [LP] LOG > (RedReflex) [U] (redreflex)
-[14:41:30] [luckperms-worker-15/INFO]: [LP] LOG > webeditor add group.survival true
-[14:41:30] [luckperms-worker-15/INFO]: [LP] LOG > (RedReflex) [U] (redreflex)
-[14:41:30] [luckperms-worker-15/INFO]: [LP] LOG > webeditor remove group.admin true
-[14:41:49] [luckperms-worker-13/WARN]: [LuckPerms] Exception occurred handling message from socket
-java.lang.IllegalStateException: Sender does not have applyedits permission
-	at me.lucko.luckperms.common.webeditor.socket.listener.HandlerChangeRequest.handle(HandlerChangeRequest.java:59) ~[?:?]
-	at me.lucko.luckperms.common.webeditor.socket.listener.WebEditorSocketListener.handleMessageFrame(WebEditorSocketListener.java:146) ~[?:?]
-	at me.lucko.luckperms.common.webeditor.socket.listener.WebEditorSocketListener.lambda$onMessage$0(WebEditorSocketListener.java:90) ~[?:?]
-	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1395) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[14:41:54] [Server thread/INFO]: RedReflex issued server command: /lp applyedits zoy0OfHlqD
-[14:41:58] [luckperms-command-executor/INFO]: [LP] Web editor data was applied to user redreflex successfully.
-[14:41:58] [luckperms-command-executor/INFO]: [LP] (1 addition and 1 deletion)
-[14:41:58] [luckperms-command-executor/INFO]: +  group.admin (true)
-[14:41:58] [luckperms-command-executor/INFO]: -  group.survival (true)
-[14:42:04] [Server thread/INFO]: RedReflex issued server command: /gamemode creative
-[14:42:04] [Server thread/INFO]: [RedReflex: Set own game mode to Creative Mode]
-[14:42:11] [Server thread/INFO]: RedReflex issued server command: /spawner
-[14:42:15] [Server thread/INFO]: RedReflex issued server command: /spawner give RedReflex b
-[14:42:17] [Server thread/INFO]: RedReflex issued server command: /spawner give RedReflex b 2
-[14:45:33] [Server thread/INFO]: RedReflex issued server command: /pl
-[14:45:35] [Server thread/INFO]: RedReflex issued server command: /cs
-[14:45:38] [Server thread/INFO]: RedReflex issued server command: /lands
-[14:45:46] [Server thread/WARN]: RedReflex moved too quickly! 39.27286857786248,-7.9931354721936145,33.82067546854205
-[14:45:51] [Server thread/INFO]: RedReflex issued server command: /lands setspawn
-[14:45:54] [Server thread/INFO]: RedReflex issued server command: /view
-[14:46:02] [Server thread/INFO]: RedReflex issued server command: /claim
-[14:46:04] [Server thread/INFO]: RedReflex issued server command: /claim
-[14:46:06] [Server thread/INFO]: RedReflex issued server command: /claim
-[14:46:55] [Server thread/INFO]: RedReflex issued server command: /view
-[14:46:59] [Server thread/INFO]: RedReflex issued server command: /view
-[14:47:02] [Server thread/INFO]: RedReflex issued server command: /view stay
-[14:47:11] [Server thread/INFO]: RedReflex issued server command: /view stay RedReflex
-[14:47:21] [Server thread/INFO]: RedReflex issued server command: /view stay
-[14:47:27] [Server thread/INFO]: RedReflex issued server command: /view stay
-[14:47:29] [Server thread/INFO]: RedReflex issued server command: /view help
-[14:47:33] [Server thread/INFO]: RedReflex issued server command: /view here
-[14:47:36] [Server thread/INFO]: RedReflex issued server command: /view here
-[14:47:42] [Server thread/INFO]: RedReflex issued server command: /view disable
-[14:47:45] [Server thread/INFO]: RedReflex issued server command: /view
-[14:47:51] [Server thread/INFO]: RedReflex issued server command: /land
-[14:50:34] [Server thread/INFO]: RedReflex issued server command: /lp applyedits zQLqSDMHAP
-[14:50:37] [Server thread/INFO]: RedReflex issued server command: /lp applyedits zQLqSDMHAP --force
-[14:50:37] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
-[14:50:37] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add lands.role.setting.* true
-[14:50:37] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
-[14:50:37] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add lands.teleport.* true
-[14:50:37] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
-[14:50:37] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add lands.setting.* true
-[14:50:37] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
-[14:50:37] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add lands.player.setting true
-[14:50:37] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
-[14:50:37] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove lands.role.setting.attack_player true
-[14:50:37] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
-[14:50:37] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove lands.role.setting.item_pickup true
-[14:50:47] [Server thread/INFO]: RedReflex issued server command: /lp editor
-[14:50:56] [Server thread/INFO]: RedReflex issued server command: /time set day
-[14:50:56] [Server thread/INFO]: [RedReflex: Set the time to 1000]
-[14:50:58] [luckperms-worker-15/INFO]: [LP] LOG > (RedReflex) [U] (redreflex)
-[14:50:58] [luckperms-worker-15/INFO]: [LP] LOG > webeditor add group.survival true
-[14:50:58] [luckperms-worker-15/INFO]: [LP] LOG > (RedReflex) [U] (redreflex)
-[14:50:58] [luckperms-worker-15/INFO]: [LP] LOG > webeditor remove group.admin true
-[14:51:00] [Server thread/INFO]: RedReflex issued server command: /lands
-[14:51:06] [Server thread/INFO]: RedReflex issued server command: /lands
-[14:51:09] [Server thread/INFO]: RedReflex issued server command: /lands
-[14:51:13] [Server thread/WARN]: RedReflex moved too quickly! 22.46713006708012,1.0,22.02664348288124
-[14:51:13] [Server thread/WARN]: RedReflex moved too quickly! 22.46713006708012,1.0,22.02664348288124
-[14:51:13] [Server thread/WARN]: RedReflex moved too quickly! 22.46713006708012,1.0,22.02664348288124
-[14:51:16] [Server thread/INFO]: RedReflex issued server command: /view
-[14:51:23] [Server thread/INFO]: RedReflex issued server command: /lands info RedReflex
-[14:51:30] [Server thread/INFO]: RedReflex issued server command: /lands
-[14:51:32] [Server thread/INFO]: RedReflex issued server command: /land
-[14:53:42] [Server thread/INFO]: RedReflex issued server command: /view
-[14:53:54] [Server thread/INFO]: RedReflex issued server command: /land
-[14:54:02] [luckperms-worker-15/WARN]: [LuckPerms] Exception occurred handling message from socket
-java.lang.IllegalStateException: Sender does not have applyedits permission
-	at me.lucko.luckperms.common.webeditor.socket.listener.HandlerChangeRequest.handle(HandlerChangeRequest.java:59) ~[?:?]
-	at me.lucko.luckperms.common.webeditor.socket.listener.WebEditorSocketListener.handleMessageFrame(WebEditorSocketListener.java:146) ~[?:?]
-	at me.lucko.luckperms.common.webeditor.socket.listener.WebEditorSocketListener.lambda$onMessage$0(WebEditorSocketListener.java:90) ~[?:?]
-	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1395) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[14:54:07] [luckperms-command-executor/INFO]: [LP] Web editor data was applied to user redreflex successfully.
-[14:54:07] [luckperms-command-executor/INFO]: [LP] (1 addition and 1 deletion)
-[14:54:07] [luckperms-command-executor/INFO]: +  group.admin (true)
-[14:54:07] [luckperms-command-executor/INFO]: -  group.survival (true)
-[14:54:13] [Server thread/INFO]: RedReflex issued server command: /land
-[14:54:33] [Server thread/INFO]: RedReflex issued server command: /land
-[14:54:39] [Server thread/INFO]: RedReflex issued server command: /land
-[14:55:43] [Server thread/INFO]: RedReflex lost connection: Disconnected
-[14:55:43] [Server thread/INFO]: RedReflex left the game
-[14:55:46] [Server thread/INFO]: Stopping the server
-[14:55:46] [Server thread/INFO]: Stopping server
-[14:55:46] [Server thread/INFO]: [SmoothTimber] Disabling SmoothTimber v1.24.6
-[14:55:46] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.1.2-SNAPSHOT
-[14:55:46] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[14:55:46] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[14:55:46] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.98
-[14:55:46] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[14:55:46] [WebSocketConnectReadThread-121/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[14:55:46] [Server thread/INFO]: [LuckPerms] Closing storage...
-[14:55:46] [Server thread/INFO]: [LuckPerms] Goodbye!
-[14:55:46] [Server thread/INFO]: [PlugManX] Disabling PlugManX v2.3.3
-[14:55:46] [Server thread/INFO]: [SilkSpawners] Disabling SilkSpawners v7.5.0
-[14:55:46] [Server thread/INFO]: [TradeShop] Disabling TradeShop v2.6.0-STABLE
-[14:55:46] [Server thread/INFO]: [Lands] Disabling Lands v6.30.1
-[14:55:46] [Server thread/INFO]: [Lands] Closing storage.
-[14:55:46] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9-beta1+2249-223b80c
-[14:55:46] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[14:55:46] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.2-SNAPSHOT (b59-2278589)
-[14:55:46] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.15+6463-5ca4dff
-[14:55:46] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[14:55:46] [Server thread/INFO]: Saving players
-[14:55:46] [Server thread/INFO]: Saving worlds
-[14:55:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[14:55:46] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[14:55:46] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[14:55:46] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[14:55:47] [Server thread/INFO]: [ChunkHolderManager] Saved 419 block chunks, 137 entity chunks, 0 poi chunks in world 'world' in 0,38s
-[14:55:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14:55:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[14:55:47] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[14:55:47] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[14:55:47] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[14:55:47] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 11 entity chunks, 0 poi chunks in world 'world_nether' in 0,02s
-[14:55:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:55:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[14:55:47] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[14:55:47] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[14:55:47] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[14:55:47] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0,02s
-[14:55:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:55:47] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[14:55:47] [Server thread/INFO]: Flushing Chunk IO
-[14:55:47] [Server thread/INFO]: Closing Thread Pool
-[14:55:47] [Server thread/INFO]: Closing Server
+[11:02:05] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[11:02:05] [Server thread/INFO]: Default game type: SURVIVAL
+[11:02:05] [Server thread/INFO]: Generating keypair
+[11:02:05] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:02:05] [Server thread/INFO]: Using epoll channel type
+[11:02:05] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[11:02:05] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[11:02:06] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.98
+[11:02:06] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[11:02:06] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.15+6463-5ca4dff
+[11:02:07] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@14998797]
+[11:02:07] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9-beta1+2249-223b80c
+[11:02:07] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.2-SNAPSHOT (b59-2278589)
+[11:02:07] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[11:02:07] [Server thread/INFO]: [floodgate] Took 465ms to boot Floodgate
+[11:02:07] [Server thread/INFO]: [Lands] Loading server plugin Lands v6.30.1
+[11:02:08] [Server thread/INFO]: [Lands] Added flag 'lands-claim' to the plugin WorldGuard.
+[11:02:08] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.0
+[11:02:08] [Server thread/INFO]: [SilkSpawners] Loading server plugin SilkSpawners v7.5.0
+[11:02:08] [Server thread/INFO]: [TradeShop] Loading server plugin TradeShop v2.6.0-STABLE
+[11:02:08] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.1.2-SNAPSHOT
+[11:02:08] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[11:02:08] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[11:02:08] [Server thread/INFO]: [SmoothTimber] Loading server plugin SmoothTimber v1.24.6
+[11:02:08] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.20.0
+[11:02:08] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.20.0
+[11:02:08] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.3.3
+[11:02:08] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:02:08] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.98
+[11:02:09] [Server thread/INFO]:         __    
+[11:02:09] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.98
+[11:02:09] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[11:02:09] [Server thread/INFO]: 
+[11:02:09] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[11:02:09] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[11:02:10] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[11:02:10] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[11:02:10] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1484ms)
+[11:02:10] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[11:02:10] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[11:02:10] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[11:02:10] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[11:02:10] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[11:02:10] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.15+6463-5ca4dff
+[11:02:10] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[11:02:10] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[11:02:10] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[11:02:11] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.3.3
+[11:02:11] [Server thread/WARN]: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[11:02:11] [Server thread/WARN]: It seems like you're running on paper.
+[11:02:11] [Server thread/WARN]: This may cause issues.
+[11:02:11] [Server thread/WARN]: If you encounter any issues, please join my dicord: https://discord.gg/dBhfCzdZxq
+[11:02:11] [Server thread/WARN]: Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
+[11:02:11] [Server thread/WARN]: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[11:02:12] [Server thread/INFO]: Preparing level "world"
+[11:02:13] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:02:13] [Server thread/INFO]: Time elapsed: 217 ms
+[11:02:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[11:02:13] [Server thread/INFO]: Time elapsed: 40 ms
+[11:02:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[11:02:13] [Server thread/INFO]: Time elapsed: 55 ms
+[11:02:13] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9-beta1+2249-223b80c
+[11:02:13] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[11:02:13] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[11:02:13] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[11:02:13] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[11:02:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[11:02:13] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[11:02:13] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[11:02:13] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[11:02:13] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[11:02:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[11:02:13] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[11:02:13] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[11:02:13] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[11:02:13] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[11:02:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[11:02:13] [Server thread/INFO]: [WorldGuard] Loading region data...
+[11:02:14] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.2-SNAPSHOT (b59-2278589)
+[11:02:14] [Server thread/INFO]: [Lands] Enabling Lands v6.30.1
+[11:02:14] [Server thread/INFO]: [Lands]  _                        _      
+[11:02:14] [Server thread/INFO]: [Lands] | |                      | |     
+[11:02:14] [Server thread/INFO]: [Lands] | |      __ _  _ __    __| | ___ 
+[11:02:14] [Server thread/INFO]: [Lands] | |     / _` || '_ \  / _` |/ __|
+[11:02:14] [Server thread/INFO]: [Lands] | |____| (_| || | | || (_| |\__ \
+[11:02:14] [Server thread/INFO]: [Lands] \_____/ \__,_||_| |_| \__,_||___/
+[11:02:14] [Server thread/INFO]: [Lands] Version: 6.30.1 Previous: 6.30.1
+[11:02:14] [Server thread/INFO]: [Lands] Server: 1.20.x running Paper
+[11:02:14] [Server thread/INFO]: [Lands] Licensed to: 888480
+[11:02:14] [Server thread/INFO]: [Lands] Experiencing issues or having questions? Join our Discord!
+[11:02:14] [Server thread/INFO]: [Lands] Discord: https://discord.gg/B4MAJVk
+[11:02:14] [Server thread/INFO]: [Lands] Wiki: https://github.com/Angeschossen/Lands/wiki
+[11:02:14] [Server thread/INFO]: [Lands]  
+[11:02:14] [Server thread/INFO]: [Lands] Using SQLite.
+[11:02:14] [Server thread/INFO]: [Lands] Setting up tables...
+[11:02:14] [Server thread/INFO]: [Lands] Your SQL DBMS version: 3.42.0 (SQLite) Wiki: https://github.com/Angeschossen/Lands/wiki/Database
+[11:02:14] [Server thread/INFO]: [Lands] Successfully connected to SQL database.
+[11:02:14] [Server thread/INFO]: [Lands] Performing initial data load.
+[11:02:14] [Server thread/INFO]: [Lands] There are currently 3 created land(s).
+[11:02:14] [Server thread/INFO]: [Lands] Initial data load took 82 ms.
+[11:02:14] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.0
+[11:02:14] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[11:02:15] [Server thread/WARN]: [Essentials] Missing userdata folder, aborting
+[11:02:15] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[11:02:15] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[11:02:15] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[11:02:15] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
+[11:02:15] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
+[11:02:15] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/worth.yml
+[11:02:15] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/tpr.yml
+[11:02:15] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[11:02:15] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/custom_items.yml
+[11:02:15] [Server thread/INFO]: [Essentials] Using locale en
+[11:02:15] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[11:02:15] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[11:02:15] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[11:02:15] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[11:02:15] [Server thread/INFO]: [SilkSpawners] Enabling SilkSpawners v7.5.0
+[11:02:15] [Server thread/INFO]: [SilkSpawners] WorldGuard was found and support is enabled
+[11:02:15] [Server thread/INFO]: [SilkSpawners] Loading support for v1_20_R1
+[11:02:15] [Server thread/INFO]: [SilkSpawners] AutoUpdater is enabled and now running.
+[11:02:15] [Server thread/INFO]: [SilkSpawners] BarAPI is disabled due to config setting.
+[11:02:15] [Server thread/INFO]: [TradeShop] Enabling TradeShop v2.6.0-STABLE
+[11:02:15] [Server thread/INFO]: [TradeShop] Data storage set to: FLATFILE
+[11:02:15] [Server thread/INFO]: [TradeShop] Metrics successfully initialized!
+[11:02:15] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.1.2-SNAPSHOT
+[11:02:15] [Server thread/INFO]: [SmoothTimber] Enabling SmoothTimber v1.24.6
+[11:02:15] [Server thread/INFO]: SmoothTimber || You're currently using the supported Minecraft Version 1.20.1 (Core v1_20x)
+[11:02:15] [Server thread/INFO]: SmoothTimber || Trying to enable compatibility addon 'Lands' for plugin 'Lands'...
+[11:02:15] [Server thread/INFO]: [Lands] [Integrations] 3rd party plugin hooking into Lands: SmoothTimber
+[11:02:15] [Server thread/INFO]: [Lands] Nag author(s) of plugin SmoothTimber. It uses the deprecated LandsIntegration of Lands: https://github.com/Angeschossen/LandsAPI/wiki/API-Update
+[11:02:15] [Server thread/INFO]: SmoothTimber || Successfully enabled compatbility addon 'Lands' for plugin 'Lands'...
+[11:02:15] [Server thread/INFO]: SmoothTimber || Trying to enable compatibility addon 'WorldGuard' for plugin 'WorldGuard'...
+[11:02:15] [Server thread/INFO]: SmoothTimber || Successfully enabled compatbility addon 'WorldGuard' for plugin 'WorldGuard'...
+[11:02:15] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.20.0
+[11:02:15] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[11:02:15] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.20.0
+[11:02:15] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[11:02:15] [Thread-12/INFO]: [TradeShop] [Updater] You are running the latest version of the plugin!
+[11:02:16] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[11:02:16] [Server thread/INFO]: [Geyser-Spigot] 
+[11:02:16] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.1.2-SNAPSHOT (git-master-0e3e2d0)
+[11:02:16] [Server thread/INFO]: [Geyser-Spigot] 
+[11:02:16] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[11:02:19] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
+[11:02:19] [Server thread/INFO]: [Geyser-Spigot] Done (3.276s)! Run /geyser help for help!
+[11:02:19] [Server thread/INFO]: Running delayed init tasks
+[11:02:19] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[11:02:19] [Server thread/INFO]: [SilkSpawners] Result from AutoUpdater is: NO_UPDATE
+[11:02:19] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
+[11:02:19] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] Checking for Updates ... 
+[11:02:19] [Server thread/INFO]: [Lands] [Integrations] Successfully integrated LuckPerms for offline permission lookups.
+[11:02:19] [Server thread/INFO]: [Lands] [Integrations] Integrated geyser forms for Bedrock players.
+[11:02:19] [Server thread/INFO]: [Lands] Successfully added region provider: WorldGuard Type: SERVER
+[11:02:19] [Server thread/INFO]: Done (14.496s)! For help, type "help"
+[11:02:19] [Server thread/INFO]: Timings Reset
+[11:02:19] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] No new version available
+[11:02:20] [Server thread/INFO]: [Lands] [Integrations] Successfully integrated Vault economy into economy system. Name: EssentialsX Economy Banks: true
+[11:02:20] [Server thread/INFO]: [Lands] [Integrations] Successfully integrated WorldEdit. Bypass: lands.bypass.worldedit Wilderness-Bypass: lands.bypass.wilderness.worldedit
+[11:02:20] [Server thread/INFO]: [Lands] [Integrations] Successfully loaded LuckPerms contexts. More information: https://github.com/Angeschossen/Lands/wiki/Luckperms-Context
+[11:02:21] [User Authenticator #0/INFO]: UUID of player RedReflex is 470a314a-1d96-487e-993b-9770c116a66c
+[11:02:21] [Server thread/INFO]: RedReflex joined the game
+[11:02:21] [Server thread/INFO]: RedReflex[/5.132.109.70:62640] logged in with entity id 124 at ([world]-9.60728089036379, 64.0, -68.78049451675943)
+[11:02:21] [Server thread/WARN]: [Essentials] File motd.txt does not exist. Creating one for you.
+[11:02:24] [ForkJoinPool.commonPool-worker-2/INFO]: [Lands] There is a new version available: 6.32.5
+[11:02:25] [Server thread/INFO]: RedReflex issued server command: /lp editor
+[11:02:27] [Async Chat Thread - #1/INFO]: [Admin] RedReflex > yo
+[11:02:34] [Server thread/INFO]: RedReflex issued server command: /pl
+[11:03:44] [Server thread/INFO]: RedReflex issued server command: /spawn
+[11:03:44] [Server thread/INFO]: [Essentials] RedReflex was denied access to command.
+[11:03:46] [Server thread/INFO]: RedReflex issued server command: /lands
+[11:03:57] [Server thread/INFO]: RedReflex issued server command: /land admin menu
+[11:03:59] [Server thread/WARN]: RedReflex moved too quickly! -21.254785215955557,234.33644189661482,13.860746933255939
+[11:04:04] [Server thread/INFO]: RedReflex issued server command: /op RedReflex
+[11:04:04] [Server thread/INFO]: [RedReflex: Made RedReflex a server operator]
+[11:04:07] [Server thread/INFO]: RedReflex issued server command: /setspawn survival
+[11:04:50] [Server thread/INFO]: RedReflex issued server command: /setspawn
+[11:04:52] [Server thread/INFO]: RedReflex issued server command: /spawn
+[11:04:58] [Server thread/INFO]: RedReflex issued server command: /setspawn
+[11:05:01] [Server thread/INFO]: RedReflex issued server command: /setspawn survival
+[11:05:03] [Server thread/INFO]: RedReflex issued server command: /spawn
+[11:05:04] [Server thread/INFO]: RedReflex issued server command: /spawn
+[11:05:41] [Server thread/INFO]: RedReflex issued server command: /spawn
+[11:05:46] [Server thread/INFO]: RedReflex issued server command: //wamnd
+[11:05:50] [Server thread/INFO]: RedReflex issued server command: //replacenear 50 36 0
+[11:06:50] [Server thread/INFO]: RedReflex issued server command: /invsee re
+[11:06:52] [Server thread/INFO]: RedReflex issued server command: /invsee
+[11:06:56] [Server thread/INFO]: RedReflex issued server command: /invsee Server
+[11:07:40] [Server thread/INFO]: RedReflex issued server command: /lp editor
+[11:08:18] [Server thread/INFO]: RedReflex issued server command: /book
+[11:09:19] [Server thread/INFO]: RedReflex issued server command: /ext
+[11:09:28] [Server thread/INFO]: RedReflex issued server command: /fly
+[11:09:29] [Server thread/INFO]: RedReflex issued server command: /
+[11:09:30] [Server thread/INFO]: RedReflex issued server command: /fly
+[11:09:43] [Server thread/INFO]: RedReflex issued server command: /getpos
+[11:09:51] [Server thread/INFO]: RedReflex issued server command: /getpos RedReflex
+[11:10:07] [Server thread/INFO]: RedReflex issued server command: /hat
+[11:10:08] [Server thread/INFO]: RedReflex issued server command: /hat
+[11:10:16] [Server thread/INFO]: RedReflex issued server command: /hat
+[11:11:16] [Server thread/INFO]: RedReflex issued server command: /home compass
+[11:11:18] [Server thread/INFO]: RedReflex issued server command: /home
+[11:11:25] [Server thread/WARN]: RedReflex moved too quickly! -5.794317569232447,-30.8697721687211,-76.18262161890271
+[11:11:27] [Server thread/WARN]: RedReflex moved too quickly! 4.624514167602136,-3.682623392794042,15.475979620728452
+[11:11:28] [Server thread/WARN]: RedReflex moved too quickly! 46.857958411004184,-14.312512630107875,21.96147902917216
+[11:11:30] [Server thread/WARN]: RedReflex moved too quickly! -16.980534676952658,1.7999999523162842,7.035435964008045
+[11:11:32] [Server thread/INFO]: RedReflex issued server command: /spawn
+[11:11:32] [Server thread/WARN]: RedReflex moved too quickly! -120.09840100508507,230.00566831973686,-113.5734639400662
+[11:11:39] [Server thread/INFO]: RedReflex issued server command: /ice
+[11:11:45] [Server thread/INFO]: RedReflex issued server command: /ice RedReflex 20
+[11:11:55] [Server thread/INFO]: RedReflex issued server command: /ignore
+[11:11:56] [Server thread/INFO]: RedReflex issued server command: /ignore RedReflex
+[11:11:57] [Server thread/INFO]: RedReflex issued server command: /ignore
+[11:12:00] [Server thread/INFO]: RedReflex issued server command: /ignore RedReflex
+[11:12:09] [Server thread/INFO]: RedReflex issued server command: /info
+[11:12:10] [Server thread/INFO]: RedReflex issued server command: /info
+[11:12:22] [Server thread/INFO]: RedReflex issued server command: /essentials:info
+[11:12:27] [Server thread/INFO]: RedReflex issued server command: /essentials:info
+[11:12:30] [Server thread/INFO]: RedReflex issued server command: /essentials:info 2
+[11:12:35] [Server thread/INFO]: RedReflex issued server command: /essentials:info 3
+[11:12:38] [Server thread/INFO]: RedReflex issued server command: /info Tags
+[11:13:09] [Server thread/INFO]: RedReflex issued server command: /itemdb
+[11:13:11] [Server thread/INFO]: RedReflex issued server command: /itemdb
+[11:13:54] [Server thread/INFO]: RedReflex issued server command: /mal
+[11:13:56] [Server thread/INFO]: RedReflex issued server command: /mail
+[11:14:05] [Server thread/INFO]: RedReflex issued server command: /mail list
+[11:14:06] [Server thread/INFO]: RedReflex issued server command: /mail read
+[11:14:16] [Server thread/INFO]: RedReflex issued server command: /me
+[11:14:18] [Server thread/INFO]: RedReflex issued server command: /me yo
+[11:14:20] [Server thread/INFO]: RedReflex issued server command: /test
+[11:14:24] [Server thread/INFO]: RedReflex issued server command: /more
+[11:14:26] [Server thread/INFO]: RedReflex issued server command: /more
+[11:15:12] [Server thread/INFO]: RedReflex issued server command: /msgtoggle
+[11:15:13] [Server thread/INFO]: RedReflex issued server command: /msgtoggle
+[11:15:20] [Server thread/INFO]: RedReflex issued server command: /mute
+[11:15:25] [Server thread/INFO]: RedReflex issued server command: /near
+[11:15:49] [Server thread/INFO]: RedReflex issued server command: /ptime
+[11:16:05] [Server thread/INFO]: RedReflex issued server command: /recipe
+[11:16:06] [Server thread/INFO]: RedReflex issued server command: /recipe
+[11:16:08] [Server thread/INFO]: RedReflex issued server command: /recipe stone
+[11:16:36] [Server thread/INFO]: RedReflex issued server command: /remove
+[11:16:43] [Server thread/INFO]: RedReflex issued server command: /essentials:remove
+[11:16:56] [Server thread/INFO]: RedReflex issued server command: /essentials:recipe stone
+[11:17:04] [Server thread/INFO]: RedReflex issued server command: /rest
+[11:17:13] [Server thread/INFO]: RedReflex issued server command: /rules
+[11:17:14] [Server thread/INFO]: RedReflex issued server command: /rules
+[11:17:25] [Server thread/INFO]: RedReflex issued server command: /seen
+[11:17:26] [Server thread/INFO]: RedReflex issued server command: /seen RedReflex
+[11:18:35] [Server thread/INFO]: RedReflex issued server command: /trade
+[11:19:03] [Server thread/INFO]: RedReflex issued server command: /suicide
+[11:19:03] [Server thread/INFO]: RedReflex died
+[11:19:38] [Server thread/INFO]: RedReflex issued server command: /tpaall
+[11:20:05] [Server thread/INFO]: RedReflex issued server command: /tpr
+[11:20:08] [Server thread/INFO]: RedReflex issued server command: /tpr
+[11:20:13] [Server thread/INFO]: RedReflex issued server command: /tpo
+[11:20:24] [Server thread/INFO]: RedReflex issued server command: /tree
+[11:20:30] [Server thread/INFO]: RedReflex issued server command: /unlimited
+[11:21:07] [Server thread/INFO]: RedReflex issued server command: /warpinfo
+[11:21:07] [Server thread/INFO]: RedReflex issued server command: /spawn
+[11:21:08] [Server thread/WARN]: RedReflex moved too quickly! 1.1708542933754047E7,242.0,1.2990305013350615E7
+[11:21:11] [Server thread/INFO]: RedReflex issued server command: /setwarp Spawn
+[11:21:14] [Server thread/INFO]: RedReflex issued server command: /warpinfo Spawn
+[11:21:28] [Server thread/INFO]: RedReflex issued server command: /whois
+[11:21:28] [Server thread/INFO]: RedReflex issued server command: /whois RedReflex
+[11:21:33] [Server thread/INFO]: RedReflex issued server command: /workbench
+[11:21:36] [Server thread/INFO]: RedReflex issued server command: /wb
+[11:21:42] [Server thread/INFO]: RedReflex issued server command: /world
+[11:21:42] [Server thread/INFO]: RedReflex has made the advancement [We Need to Go Deeper]
+[11:21:46] [Server thread/INFO]: RedReflex issued server command: /world world
+[11:21:47] [Server thread/INFO]: RedReflex issued server command: /spawn
+[11:21:47] [Server thread/WARN]: RedReflex moved too quickly! -17.0,0.0,-25.0
+[11:21:54] [Server thread/INFO]: RedReflex issued server command: /worth
+[11:21:56] [Server thread/INFO]: RedReflex issued server command: /worth
+[11:21:58] [Server thread/INFO]: RedReflex issued server command: /worth
+[11:22:00] [Server thread/INFO]: RedReflex issued server command: /worth
+[11:22:04] [Server thread/INFO]: RedReflex issued server command: /worth
+[11:22:07] [Server thread/INFO]: RedReflex issued server command: /worth
+[11:25:00] [Server thread/INFO]: RedReflex issued server command: /changems
+[11:25:03] [Server thread/INFO]: RedReflex issued server command: /chat
+[11:25:05] [Server thread/INFO]: RedReflex issued server command: /chatcolor
+[11:25:06] [Server thread/INFO]: RedReflex issued server command: /chat
+[11:25:19] [Async Chat Thread - #2/INFO]: [Admin] RedReflex > Yo?
+[11:25:30] [Server thread/INFO]: RedReflex issued server command: /discord
+[11:26:24] [Server thread/INFO]: RedReflex issued server command: /lp applyedits 5vnYpbo92e
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.msgtoggle true
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.rules true
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.tpacancel true
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.recipe true
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.msg.magic true
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.list true
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.tpa true
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.signs.use.protection true
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.msg true
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.info true
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.tpaccept true
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.getpos true
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.helpop true
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.rtoggle true
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.sethome.multiple.3 true
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.msg.multiple true
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.msg.url true
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.warp.list true
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.motd true
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.ignore true
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.warpinfo true
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.msg.rgb true
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.signs.magic true
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.home.bed true
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.home true
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.spawn true
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.help true
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.hat true
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.tpahere true
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.signs.format true
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.signs.rgb true
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.signs.use.warp true
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.delhome true
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.signs.color true
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.msg.format true
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.msg.color true
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.suicide true
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > (RedReflex) [G] (survival)
+[11:26:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.warps.* true
+[11:26:34] [Server thread/INFO]: RedReflex issued server command: /lp editor
+[11:27:20] [luckperms-worker-8/INFO]: [LP] LOG > (RedReflex) [G] (admin)
+[11:27:20] [luckperms-worker-8/INFO]: [LP] LOG > webeditor add essentials.* true
+[11:27:51] [Server thread/INFO]: Stopping the server
+[11:27:51] [Server thread/INFO]: Stopping server
+[11:27:51] [Server thread/INFO]: [PlugManX] Disabling PlugManX v2.3.3
+[11:27:51] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.20.0
+[11:27:51] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.20.0
+[11:27:51] [Server thread/INFO]: [SmoothTimber] Disabling SmoothTimber v1.24.6
+[11:27:51] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.1.2-SNAPSHOT
+[11:27:51] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[11:27:51] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[11:27:51] [Server thread/INFO]: [TradeShop] Disabling TradeShop v2.6.0-STABLE
+[11:27:51] [Server thread/INFO]: [SilkSpawners] Disabling SilkSpawners v7.5.0
+[11:27:51] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.0
+[11:27:51] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[11:27:51] [Server thread/INFO]: [Lands] Disabling Lands v6.30.1
+[11:27:51] [WebSocketConnectReadThread-104/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[11:27:51] [Server thread/INFO]: [Lands] Closing storage.
+[11:27:51] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.2-SNAPSHOT (b59-2278589)
+[11:27:51] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9-beta1+2249-223b80c
+[11:27:51] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[11:27:51] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.15+6463-5ca4dff
+[11:27:51] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[11:27:51] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[11:27:51] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.98
+[11:27:51] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[11:27:51] [Server thread/INFO]: [LuckPerms] Closing storage...
+[11:27:51] [Server thread/INFO]: [LuckPerms] Goodbye!
+[11:27:51] [Server thread/INFO]: Saving players
+[11:27:51] [Server thread/INFO]: RedReflex lost connection: Server closed
+[11:27:51] [Server thread/INFO]: RedReflex left the game
+[11:27:52] [Server thread/INFO]: Saving worlds
+[11:27:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:27:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[11:27:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[11:27:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[11:27:52] [Server thread/INFO]: [ChunkHolderManager] Saved 409 block chunks, 71 entity chunks, 0 poi chunks in world 'world' in 0.28s
+[11:27:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:27:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[11:27:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[11:27:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[11:27:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[11:27:52] [Server thread/INFO]: [ChunkHolderManager] Saved 741 block chunks, 3 entity chunks, 0 poi chunks in world 'world_nether' in 0.26s
+[11:27:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:27:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[11:27:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[11:27:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[11:27:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[11:27:52] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[11:27:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:27:52] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:27:52] [Server thread/INFO]: Flushing Chunk IO
+[11:27:52] [Server thread/INFO]: Closing Thread Pool
+[11:27:52] [Server thread/INFO]: Closing Server

@@ -1,0 +1,14 @@
+{
+  "470a314a-1d96-487e-993b-9770c116a66c": {
+    "uuidString": "470a314a-1d96-487e-993b-9770c116a66c",
+    "ownedShops": [
+      "l::world::53.0::95.0::83.0",
+      "l::world::-42.0::307.0::-37.0",
+      "l::world::-40.0::307.0::-37.0"
+    ],
+    "staffShops": [],
+    "showInvolvedStatus": false,
+    "adminEnabled": true,
+    "multi": 2
+  }
+}
