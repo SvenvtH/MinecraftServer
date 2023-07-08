@@ -1,7 +1,7 @@
 # Change at your own risk
 # Only the messages with color codes here support color codes. The rest have a default color
 
-music: Song.nbs
+music: Pokemon.nbs
 options:
   music:
     random: false
