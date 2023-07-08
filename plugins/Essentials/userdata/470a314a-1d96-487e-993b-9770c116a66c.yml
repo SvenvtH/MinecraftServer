@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1688819890747
-  login: 1688819778617
+  logout: 1688820053624
+  login: 1688820043863
 money: '0'
 last-account-name: RedReflex
 lastlocation:
@@ -31,11 +31,11 @@ lastlocation:
 logoutlocation:
   world: 99daf602-e152-4720-87ae-1013a4aa1c73
   world-name: world
-  x: -31.692583788911666
-  y: 308.0
-  z: -46.7239403697527
-  yaw: -5.372349739074707
-  pitch: 20.54998207092285
+  x: -32.3742050326228
+  y: 309.12519101288586
+  z: -48.38984836197192
+  yaw: -128.52337646484375
+  pitch: 25.649818420410156
 homes:
   home:
     world: 99daf602-e152-4720-87ae-1013a4aa1c73
