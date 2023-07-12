@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 77.160.53.95
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1688843836182
+  login: 1688843787242
+money: '0'
+last-account-name: .Zwenboy
+logoutlocation:
+  world: 99daf602-e152-4720-87ae-1013a4aa1c73
+  world-name: world
+  x: 238.20255
+  y: 93.0
+  z: 67.12347
+  yaw: -35.05754089355469
+  pitch: -1.467193603515625

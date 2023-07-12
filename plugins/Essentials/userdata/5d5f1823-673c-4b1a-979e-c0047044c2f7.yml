@@ -1,0 +1,71 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 5.132.108.110
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1689108569878
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1689111284822
+  login: 1689105758663
+money: '0'
+last-account-name: Weirdboy13
+lastlocation:
+  world: 99daf602-e152-4720-87ae-1013a4aa1c73
+  world-name: world
+  x: 10685.300000011921
+  y: -41.0
+  z: -1201.300000011921
+  yaw: 14.546142578125
+  pitch: -26.95953941345215
+logoutlocation:
+  world: 99daf602-e152-4720-87ae-1013a4aa1c73
+  world-name: world
+  x: -152.20483555118437
+  y: 69.0
+  z: -3.754088042281871
+  yaw: 74.93032836914062
+  pitch: 11.313985824584961
+homes:
+  snowbase:
+    world: 99daf602-e152-4720-87ae-1013a4aa1c73
+    world-name: world
+    x: 5694.050991261222
+    y: 89.0
+    z: -241.30157649844634
+    yaw: -132.61276245117188
+    pitch: -4.42535400390625
+  oceantemple:
+    world: 99daf602-e152-4720-87ae-1013a4aa1c73
+    world-name: world
+    x: 7839.3125
+    y: 63.085764312744146
+    z: 25.3125
+    yaw: -24.03057861328125
+    pitch: 2.555420160293579
+  end:
+    world: d830b14b-112d-4395-8680-d83a9309f16c
+    world-name: world_the_end
+    x: -10912.118968825349
+    y: 58.0
+    z: -522.3865712198827
+    yaw: 102.20718383789062
+    pitch: 7.8117499351501465
+  cavebase:
+    world: 99daf602-e152-4720-87ae-1013a4aa1c73
+    world-name: world
+    x: 27.01878508224103
+    y: -37.0
+    z: -1458.392021134168
+    yaw: 32.5047607421875
+    pitch: 23.106277465820312

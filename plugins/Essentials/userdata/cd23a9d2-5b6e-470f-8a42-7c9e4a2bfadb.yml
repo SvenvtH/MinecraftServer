@@ -1,0 +1,63 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 212.102.35.247
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1689072715231
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1689147046073
+  login: 1689147009263
+money: '0'
+last-account-name: DAMNNN_SON
+lastlocation:
+  world: 99daf602-e152-4720-87ae-1013a4aa1c73
+  world-name: world
+  x: -1214.9610663502383
+  y: 88.0
+  z: 3240.1139684738464
+  yaw: -79.01300048828125
+  pitch: 27.89908790588379
+logoutlocation:
+  world: 99daf602-e152-4720-87ae-1013a4aa1c73
+  world-name: world
+  x: 2557.699999988079
+  y: 72.0
+  z: -1321.4610316101164
+  yaw: -5.69293212890625
+  pitch: 10.200016021728516
+homes:
+  spruce:
+    world: 99daf602-e152-4720-87ae-1013a4aa1c73
+    world-name: world
+    x: -1344.5865191648584
+    y: 75.0
+    z: -1274.8897160279964
+    yaw: 152.9854736328125
+    pitch: 16.35149574279785
+  base:
+    world: 99daf602-e152-4720-87ae-1013a4aa1c73
+    world-name: world
+    x: -1216.4065230016313
+    y: 88.0
+    z: 3243.6227059517805
+    yaw: -161.5099639892578
+    pitch: 22.94928550720215
+  village:
+    world: 99daf602-e152-4720-87ae-1013a4aa1c73
+    world-name: world
+    x: 2556.9931337520648
+    y: 72.0
+    z: -1325.018762343298
+    yaw: -41.72125244140625
+    pitch: 14.69964599609375

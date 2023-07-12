@@ -1,0 +1,63 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 86.89.77.126
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1688995806827
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1688995840726
+  login: 1688994135813
+money: '0'
+last-account-name: tehmas
+lastlocation:
+  world: 99daf602-e152-4720-87ae-1013a4aa1c73
+  world-name: world
+  x: 2560.3084407651786
+  y: 71.9375
+  z: -1330.335984510328
+  yaw: 36.730926513671875
+  pitch: 14.402814865112305
+homes:
+  home:
+    world: 99daf602-e152-4720-87ae-1013a4aa1c73
+    world-name: world
+    x: -1213.7651624010477
+    y: 88.0
+    z: 3242.300000011921
+    yaw: 167.43222045898438
+    pitch: 13.155610084533691
+  spruce:
+    world: 99daf602-e152-4720-87ae-1013a4aa1c73
+    world-name: world
+    x: -1343.4137934546484
+    y: 74.0
+    z: -1271.4790649011702
+    yaw: -133.06454467773438
+    pitch: 6.751499652862549
+  geode:
+    world: 99daf602-e152-4720-87ae-1013a4aa1c73
+    world-name: world
+    x: -1340.364033069361
+    y: 26.0
+    z: 3538.286970390605
+    yaw: -103.6943359375
+    pitch: 18.60005760192871
+logoutlocation:
+  world: 99daf602-e152-4720-87ae-1013a4aa1c73
+  world-name: world
+  x: -1250.60673564308
+  y: 72.0
+  z: 3283.4576916235505
+  yaw: 163.68231201171875
+  pitch: 41.655574798583984

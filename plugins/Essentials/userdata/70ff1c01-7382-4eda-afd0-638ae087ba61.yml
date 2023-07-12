@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 178.84.73.47
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1688842258631
+  login: 1688842160477
+money: '0'
+last-account-name: ItsMeMichael21
+lastlocation:
+  world: 99daf602-e152-4720-87ae-1013a4aa1c73
+  world-name: world
+  x: -27.5
+  y: 319.0
+  z: -48.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 99daf602-e152-4720-87ae-1013a4aa1c73
+  world-name: world
+  x: -26.719671212019684
+  y: 306.5
+  z: -42.50485213021075
+  yaw: -2.889892578125
+  pitch: 29.354228973388672

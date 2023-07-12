@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 5.132.109.70
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1688992228208
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1689085925735
+  login: 1689076847315
+money: '0'
+last-account-name: .ExiledHorse2
+lastlocation:
+  world: 99daf602-e152-4720-87ae-1013a4aa1c73
+  world-name: world
+  x: 5172.1235
+  y: 63.0
+  z: 2269.7104
+  yaw: -87.41094970703125
+  pitch: 8.040451049804688
+logoutlocation:
+  world: 99daf602-e152-4720-87ae-1013a4aa1c73
+  world-name: world
+  x: -6625.69999
+  y: 95.0
+  z: -14368.475
+  yaw: 11.4923095703125
+  pitch: 18.00592041015625
+homes:
+  mesa:
+    world: 99daf602-e152-4720-87ae-1013a4aa1c73
+    world-name: world
+    x: -5109.3516
+    y: 126.0
+    z: -10219.568
+    yaw: -101.42411804199219
+    pitch: 34.66644287109375
