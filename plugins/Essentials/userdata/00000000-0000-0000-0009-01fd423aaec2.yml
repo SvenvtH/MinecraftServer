@@ -11,31 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1688992228208
+  lastteleport: 1689339790045
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1689085925735
-  login: 1689076847315
+  logout: 1689342213010
+  login: 1689336062527
 money: '0'
 last-account-name: .ExiledHorse2
 lastlocation:
   world: 99daf602-e152-4720-87ae-1013a4aa1c73
   world-name: world
-  x: 5172.1235
-  y: 63.0
-  z: 2269.7104
-  yaw: -87.41094970703125
-  pitch: 8.040451049804688
+  x: -31.973152
+  y: 308.0
+  z: -47.230354
+  yaw: -161.89706420898438
+  pitch: 1.5166778564453125
 logoutlocation:
   world: 99daf602-e152-4720-87ae-1013a4aa1c73
   world-name: world
-  x: -6625.69999
-  y: 95.0
-  z: -14368.475
-  yaw: 11.4923095703125
-  pitch: 18.00592041015625
+  x: -325.5126
+  y: 65.0
+  z: 23.744022
+  yaw: 28.4569091796875
+  pitch: 37.767852783203125
 homes:
   mesa:
     world: 99daf602-e152-4720-87ae-1013a4aa1c73

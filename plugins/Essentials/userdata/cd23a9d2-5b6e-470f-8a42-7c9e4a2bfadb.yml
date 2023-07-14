@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 212.102.35.247
+ip-address: 82.174.86.245
 afk: false
 socialspy: false
 npc: false
@@ -11,31 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1689072715231
+  lastteleport: 1689168501504
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1689147046073
-  login: 1689147009263
+  logout: 1689325657077
+  login: 1689325652716
 money: '0'
 last-account-name: DAMNNN_SON
 lastlocation:
   world: 99daf602-e152-4720-87ae-1013a4aa1c73
   world-name: world
-  x: -1214.9610663502383
-  y: 88.0
-  z: 3240.1139684738464
-  yaw: -79.01300048828125
-  pitch: 27.89908790588379
+  x: 1786.2843358319412
+  y: 69.0
+  z: -683.620814188887
+  yaw: 95.8599853515625
+  pitch: 21.4494571685791
 logoutlocation:
   world: 99daf602-e152-4720-87ae-1013a4aa1c73
   world-name: world
-  x: 2557.699999988079
-  y: 72.0
-  z: -1321.4610316101164
-  yaw: -5.69293212890625
-  pitch: 10.200016021728516
+  x: -1211.8962807818907
+  y: 87.0
+  z: 3252.0253313121793
+  yaw: -179.2427215576172
+  pitch: -6.299989223480225
 homes:
   spruce:
     world: 99daf602-e152-4720-87ae-1013a4aa1c73

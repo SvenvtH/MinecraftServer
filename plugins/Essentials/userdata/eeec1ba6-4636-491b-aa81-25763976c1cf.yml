@@ -11,23 +11,23 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1688995806827
+  lastteleport: 1689168169600
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1688995840726
-  login: 1688994135813
+  logout: 1689169308176
+  login: 1689165503816
 money: '0'
 last-account-name: tehmas
 lastlocation:
   world: 99daf602-e152-4720-87ae-1013a4aa1c73
   world-name: world
-  x: 2560.3084407651786
-  y: 71.9375
-  z: -1330.335984510328
-  yaw: 36.730926513671875
-  pitch: 14.402814865112305
+  x: -1370.4103708775012
+  y: 73.0
+  z: -1258.8869646214466
+  yaw: -161.86451721191406
+  pitch: -1.9485236406326294
 homes:
   home:
     world: 99daf602-e152-4720-87ae-1013a4aa1c73
@@ -56,8 +56,8 @@ homes:
 logoutlocation:
   world: 99daf602-e152-4720-87ae-1013a4aa1c73
   world-name: world
-  x: -1250.60673564308
-  y: 72.0
-  z: 3283.4576916235505
-  yaw: 163.68231201171875
-  pitch: 41.655574798583984
+  x: -1211.142414537545
+  y: 89.0
+  z: 3243.726591720078
+  yaw: 68.8836669921875
+  pitch: 59.09992980957031
