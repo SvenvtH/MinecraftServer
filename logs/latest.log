@@ -1,256 +1,496 @@
-[13:44:30] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[13:44:31] [ServerMain/INFO]: Loaded 7 recipes
-[13:44:32] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[13:44:32] [Server thread/WARN]: ****************************
-[13:44:32] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
-[13:44:32] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
-[13:44:32] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
-[13:44:32] [Server thread/WARN]: ****************************
-[13:44:32] [Server thread/INFO]: Loading properties
-[13:44:32] [Server thread/INFO]: This server is running Paper version git-Paper-65 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: dadd8b5)
-[13:44:32] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[13:44:32] [Server thread/INFO]: Using 4 threads for Netty based IO
-[13:44:32] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[13:47:45] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:47:46] [ServerMain/INFO]: Loaded 7 recipes
+[13:47:47] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[13:47:47] [Server thread/WARN]: ****************************
+[13:47:47] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[13:47:47] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[13:47:47] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[13:47:47] [Server thread/WARN]: ****************************
+[13:47:47] [Server thread/INFO]: Loading properties
+[13:47:47] [Server thread/INFO]: This server is running Paper version git-Paper-65 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: dadd8b5)
+[13:47:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:47:47] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:47:47] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[13:44:32] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[13:44:32] [Server thread/INFO]: Default game type: SURVIVAL
-[13:44:32] [Server thread/INFO]: Generating keypair
-[13:44:32] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:44:33] [Server thread/INFO]: Using epoll channel type
-[13:44:33] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[13:44:33] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[13:44:33] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.98
-[13:44:34] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[13:44:34] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.15+6463-5ca4dff
-[13:44:34] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@28efe2f5]
-[13:44:34] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9-beta1+2249-223b80c
-[13:44:34] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.2-SNAPSHOT (b59-2278589)
-[13:44:35] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[13:44:35] [Server thread/INFO]: [floodgate] Took 480ms to boot Floodgate
-[13:44:35] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.0
-[13:44:35] [Server thread/INFO]: [SilkSpawners] Loading server plugin SilkSpawners v7.5.0
-[13:44:35] [Server thread/INFO]: [NoteBlockAPI] Loading server plugin NoteBlockAPI v1.6.1-SNAPSHOT
-[13:44:35] [Server thread/INFO]: [Lands] Loading server plugin Lands v6.30.1
-[13:44:35] [Server thread/INFO]: [Lands] Added flag 'lands-claim' to the plugin WorldGuard.
-[13:44:35] [Server thread/INFO]: [TradeShop] Loading server plugin TradeShop v2.6.0-STABLE
-[13:44:35] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.1.2-SNAPSHOT
-[13:44:36] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[13:44:36] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[13:44:36] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.20.0
-[13:44:36] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.20.0
-[13:44:36] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.3.3
-[13:44:36] [Server thread/INFO]: [UltimateTimber] Loading server plugin UltimateTimber v2.3.7
-[13:44:36] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:44:36] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.98
-[13:44:36] [Server thread/INFO]:         __    
-[13:44:36] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.98
-[13:44:36] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[13:44:36] [Server thread/INFO]: 
-[13:44:36] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[13:44:37] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[13:44:37] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[13:44:37] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[13:44:38] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1844ms)
-[13:44:38] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[13:44:38] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[13:44:38] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[13:44:38] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[13:44:38] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[13:44:38] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.15+6463-5ca4dff
-[13:44:38] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[13:44:38] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[13:44:38] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
-[13:44:39] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.3.3
-[13:44:39] [Server thread/WARN]: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[13:44:39] [Server thread/WARN]: It seems like you're running on paper.
-[13:44:39] [Server thread/WARN]: This may cause issues.
-[13:44:39] [Server thread/WARN]: If you encounter any issues, please join my dicord: https://discord.gg/dBhfCzdZxq
-[13:44:39] [Server thread/WARN]: Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
-[13:44:39] [Server thread/WARN]: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[13:44:39] [Server thread/INFO]: Preparing level "world"
-[13:44:40] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:44:40] [Server thread/INFO]: Time elapsed: 187 ms
-[13:44:40] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[13:44:40] [Server thread/INFO]: Time elapsed: 61 ms
-[13:44:40] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[13:44:40] [Server thread/INFO]: Time elapsed: 49 ms
-[13:44:40] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9-beta1+2249-223b80c
-[13:44:40] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[13:44:40] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[13:44:40] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[13:44:40] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[13:44:40] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[13:44:40] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[13:44:40] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[13:44:40] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[13:44:40] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[13:44:40] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[13:44:40] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[13:44:40] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[13:44:40] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[13:44:40] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[13:44:40] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[13:44:41] [Server thread/INFO]: [WorldGuard] Loading region data...
-[13:44:41] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.2-SNAPSHOT (b59-2278589)
-[13:44:41] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.0
-[13:44:41] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[13:44:41] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[13:44:41] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[13:44:42] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
-[13:44:42] [Server thread/INFO]: [Essentials] Using locale en
-[13:44:42] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[13:44:42] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[13:44:42] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[13:44:42] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[13:44:42] [Server thread/INFO]: [SilkSpawners] Enabling SilkSpawners v7.5.0
-[13:44:42] [Server thread/INFO]: [SilkSpawners] WorldGuard was found and support is enabled
-[13:44:42] [Server thread/INFO]: [SilkSpawners] Loading support for v1_20_R1
-[13:44:42] [Server thread/INFO]: [SilkSpawners] AutoUpdater is enabled and now running.
-[13:44:42] [Server thread/INFO]: [SilkSpawners] BarAPI is disabled due to config setting.
-[13:44:42] [Server thread/INFO]: [NoteBlockAPI] Enabling NoteBlockAPI v1.6.1-SNAPSHOT
-[13:44:42] [Server thread/INFO]: [Lands] Enabling Lands v6.30.1
-[13:44:42] [Server thread/INFO]: [Lands]  _                        _      
-[13:44:42] [Server thread/INFO]: [Lands] | |                      | |     
-[13:44:42] [Server thread/INFO]: [Lands] | |      __ _  _ __    __| | ___ 
-[13:44:42] [Server thread/INFO]: [Lands] | |     / _` || '_ \  / _` |/ __|
-[13:44:42] [Server thread/INFO]: [Lands] | |____| (_| || | | || (_| |\__ \
-[13:44:42] [Server thread/INFO]: [Lands] \_____/ \__,_||_| |_| \__,_||___/
-[13:44:42] [Server thread/INFO]: [Lands] Version: 6.30.1 Previous: 6.30.1
-[13:44:42] [Server thread/INFO]: [Lands] Server: 1.20.x running Paper
-[13:44:42] [Server thread/INFO]: [Lands] Licensed to: 888480
-[13:44:42] [Server thread/INFO]: [Lands] Experiencing issues or having questions? Join our Discord!
-[13:44:42] [Server thread/INFO]: [Lands] Discord: https://discord.gg/B4MAJVk
-[13:44:42] [Server thread/INFO]: [Lands] Wiki: https://github.com/Angeschossen/Lands/wiki
-[13:44:42] [Server thread/INFO]: [Lands]  
-[13:44:42] [Server thread/INFO]: [Lands] Using SQLite.
-[13:44:42] [Server thread/INFO]: [Lands] Setting up tables...
-[13:44:42] [Server thread/INFO]: [Lands] Your SQL DBMS version: 3.42.0 (SQLite) Wiki: https://github.com/Angeschossen/Lands/wiki/Database
-[13:44:42] [Server thread/INFO]: [Lands] Successfully connected to SQL database.
-[13:44:42] [Server thread/INFO]: [Lands] Performing initial data load.
-[13:44:42] [Server thread/INFO]: [Lands] There are currently 9 created land(s).
-[13:44:42] [Server thread/INFO]: [Lands] Initial data load took 59 ms.
-[13:44:43] [Server thread/INFO]: [TradeShop] Enabling TradeShop v2.6.0-STABLE
-[13:44:43] [Server thread/INFO]: [TradeShop] Data storage set to: FLATFILE
-[13:44:43] [Server thread/INFO]: [TradeShop] Metrics successfully initialized!
-[13:44:43] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.1.2-SNAPSHOT
-[13:44:43] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.20.0
-[13:44:43] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[13:44:43] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.20.0
-[13:44:43] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[13:44:43] [Server thread/INFO]: [UltimateTimber] Enabling UltimateTimber v2.3.7
-[13:44:43] [Server thread/INFO]:  
-[13:44:43] [Server thread/INFO]: =============================
-[13:44:43] [Server thread/INFO]: UltimateTimber 2.3.7 by Craftaro <3!
-[13:44:43] [Server thread/INFO]: Action: Enabling...
-[13:44:43] [Server thread/INFO]: [UltimateTimber] Loaded locale "en_US"
-[13:44:43] [Thread-12/INFO]: [TradeShop] [Updater] You are running the latest version of the plugin!
-[13:44:43] [Server thread/INFO]: [SongodaCore] [SongodaCore] Hooked UltimateTimber.
-[13:44:43] [Server thread/WARN]: [NBTAPI] [NBTAPI] This Server-Version(v1_20_R1) is not supported by this NBT-API Version(2.11.2) located at com.songoda.ultimatetimber.core.third_party.de.tr7zw.nbtapi.utils.MinecraftVersion. The NBT-API will try to work as good as it can! Some functions may not work!
-[13:44:43] [Server thread/ERROR]: Unexpected error while loading UltimateTimber v2.3.7 c2.6.19: Disabling plugin!
-com.songoda.ultimatetimber.core.third_party.de.tr7zw.nbtapi.NbtApiException: [?]Error while calling the method 'putBoolean(java.lang.String,boolean)', loaded: true, Enum: COMPOUND_SET_BOOLEAN, Passed Class: class java.lang.Boolean
-	at com.songoda.ultimatetimber.core.third_party.de.tr7zw.nbtapi.utils.nmsmappings.ReflectionMethod.run(ReflectionMethod.java:358) ~[UltimateTimber-2.3.7-stable.jar:?]
-	at com.songoda.ultimatetimber.core.third_party.de.tr7zw.nbtapi.NBTReflectionUtil.setData(NBTReflectionUtil.java:615) ~[UltimateTimber-2.3.7-stable.jar:?]
-	at com.songoda.ultimatetimber.core.third_party.de.tr7zw.nbtapi.NBTCompound.setBoolean(NBTCompound.java:416) ~[UltimateTimber-2.3.7-stable.jar:?]
-	at com.songoda.ultimatetimber.manager.TreeDefinitionManager.loadAxe(TreeDefinitionManager.java:239) ~[UltimateTimber-2.3.7-stable.jar:?]
-	at com.songoda.ultimatetimber.manager.TreeDefinitionManager.reload(TreeDefinitionManager.java:175) ~[UltimateTimber-2.3.7-stable.jar:?]
-	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at com.songoda.ultimatetimber.UltimateTimber.onConfigReload(UltimateTimber.java:93) ~[UltimateTimber-2.3.7-stable.jar:?]
-	at com.songoda.ultimatetimber.core.SongodaPlugin.reloadConfig(SongodaPlugin.java:69) ~[UltimateTimber-2.3.7-stable.jar:?]
-	at com.songoda.ultimatetimber.UltimateTimber.onPluginEnable(UltimateTimber.java:78) ~[UltimateTimber-2.3.7-stable.jar:?]
-	at com.songoda.ultimatetimber.core.SongodaPlugin.onEnable(SongodaPlugin.java:131) ~[UltimateTimber-2.3.7-stable.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189) ~[paper-1.20.1.jar:git-Paper-65]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[paper-1.20.1.jar:git-Paper-65]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:639) ~[paper-1.20.1.jar:git-Paper-65]
-	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:550) ~[paper-1.20.1.jar:git-Paper-65]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:636) ~[paper-1.20.1.jar:git-Paper-65]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:435) ~[paper-1.20.1.jar:git-Paper-65]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:308) ~[paper-1.20.1.jar:git-Paper-65]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1101) ~[paper-1.20.1.jar:git-Paper-65]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.1.jar:git-Paper-65]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: object is not an instance of declaring class
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at com.songoda.ultimatetimber.core.third_party.de.tr7zw.nbtapi.utils.nmsmappings.ReflectionMethod.run(ReflectionMethod.java:355) ~[UltimateTimber-2.3.7-stable.jar:?]
-	... 21 more
-[13:44:43] [Server thread/INFO]: [UltimateTimber] Disabling UltimateTimber v2.3.7
-[13:44:43] [Server thread/INFO]: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[13:44:43] [Server thread/INFO]:  
-[13:44:44] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[13:44:44] [Server thread/INFO]: [Geyser-Spigot] 
-[13:44:44] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.1.2-SNAPSHOT (git-master-3a0c1b7)
-[13:44:44] [Server thread/INFO]: [Geyser-Spigot] 
-[13:44:44] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[13:44:48] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
-[13:44:48] [Server thread/INFO]: [Geyser-Spigot] Done (3.972s)! Run /geyser help for help!
-[13:44:48] [Server thread/INFO]: Running delayed init tasks
-[13:44:48] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
-[13:44:48] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[13:44:48] [Server thread/INFO]: [SilkSpawners] Result from AutoUpdater is: NO_UPDATE
-[13:44:48] [Craft Scheduler Thread - 0 - Vault/INFO]: [Vault] Checking for Updates ... 
-[13:44:48] [Server thread/INFO]: [Lands] [Integrations] Successfully integrated LuckPerms for offline permission lookups.
-[13:44:48] [Server thread/INFO]: [Lands] [Integrations] Integrated geyser forms for Bedrock players.
-[13:44:48] [Server thread/INFO]: [Lands] Successfully added region provider: WorldGuard Type: SERVER
-[13:44:48] [Server thread/INFO]: Done (15.841s)! For help, type "help"
-[13:44:48] [Server thread/INFO]: Timings Reset
-[13:44:48] [Craft Scheduler Thread - 0 - Vault/INFO]: [Vault] No new version available
-[13:44:49] [Server thread/INFO]: [Lands] [Integrations] Successfully integrated Vault economy into economy system. Name: EssentialsX Economy Banks: true
-[13:44:49] [Server thread/INFO]: [Lands] [Integrations] Successfully integrated WorldEdit. Bypass: lands.bypass.worldedit Wilderness-Bypass: lands.bypass.wilderness.worldedit
-[13:44:49] [Server thread/INFO]: [Lands] [Integrations] Successfully loaded LuckPerms contexts. More information: https://github.com/Angeschossen/Lands/wiki/Luckperms-Context
-[13:44:53] [ForkJoinPool.commonPool-worker-3/INFO]: [Lands] There is a new version available: 6.32.7
-[13:44:58] [Craft Scheduler Thread - 0 - NoteBlockAPI/INFO]: [NoteBlockAPI] New update available!
-[13:46:58] [Server thread/INFO]: Stopping the server
-[13:46:58] [Server thread/INFO]: Stopping server
-[13:46:58] [Server thread/INFO]: [PlugManX] Disabling PlugManX v2.3.3
-[13:46:58] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.20.0
-[13:46:58] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.20.0
-[13:46:58] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.1.2-SNAPSHOT
-[13:46:58] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[13:46:58] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[13:46:58] [Server thread/INFO]: [TradeShop] Disabling TradeShop v2.6.0-STABLE
-[13:46:58] [Server thread/INFO]: [Lands] Disabling Lands v6.30.1
-[13:46:58] [Server thread/INFO]: [Lands] Closing storage.
-[13:46:58] [WebSocketConnectReadThread-108/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[13:46:58] [Server thread/INFO]: [NoteBlockAPI] Disabling NoteBlockAPI v1.6.1-SNAPSHOT
-[13:46:58] [Server thread/INFO]: [SilkSpawners] Disabling SilkSpawners v7.5.0
-[13:46:58] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.0
-[13:46:58] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[13:46:58] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.2-SNAPSHOT (b59-2278589)
-[13:46:58] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9-beta1+2249-223b80c
-[13:46:58] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[13:46:58] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.15+6463-5ca4dff
-[13:46:58] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[13:46:58] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[13:46:58] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.98
-[13:46:58] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[13:46:58] [Server thread/INFO]: [LuckPerms] Closing storage...
-[13:46:58] [Server thread/INFO]: [LuckPerms] Goodbye!
-[13:46:58] [Server thread/INFO]: Saving players
-[13:46:58] [Server thread/INFO]: Saving worlds
-[13:46:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[13:46:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[13:46:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[13:46:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[13:46:59] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world' in 0.92s
-[13:46:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13:46:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[13:46:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[13:46:59] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[13:46:59] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[13:47:00] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0.65s
-[13:47:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:47:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[13:47:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[13:47:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[13:47:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[13:47:00] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.12s
-[13:47:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13:47:00] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[13:47:00] [Server thread/INFO]: Flushing Chunk IO
-[13:47:00] [Server thread/INFO]: Closing Thread Pool
-[13:47:00] [Server thread/INFO]: Closing Server
+[13:47:47] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[13:47:48] [Server thread/INFO]: Default game type: SURVIVAL
+[13:47:48] [Server thread/INFO]: Generating keypair
+[13:47:48] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:47:48] [Server thread/INFO]: Using epoll channel type
+[13:47:48] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[13:47:48] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[13:47:48] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.98
+[13:47:49] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[13:47:49] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.15+6463-5ca4dff
+[13:47:49] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5c3a11f5]
+[13:47:49] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9-beta1+2249-223b80c
+[13:47:49] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.2-SNAPSHOT (b59-2278589)
+[13:47:50] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[13:47:50] [Server thread/INFO]: [floodgate] Took 543ms to boot Floodgate
+[13:47:50] [Server thread/INFO]: [Lands] Loading server plugin Lands v6.30.1
+[13:47:50] [Server thread/INFO]: [Lands] Added flag 'lands-claim' to the plugin WorldGuard.
+[13:47:50] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.0
+[13:47:51] [Server thread/INFO]: [SilkSpawners] Loading server plugin SilkSpawners v7.5.0
+[13:47:51] [Server thread/INFO]: [TradeShop] Loading server plugin TradeShop v2.6.0-STABLE
+[13:47:51] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.1.2-SNAPSHOT
+[13:47:51] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[13:47:51] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[13:47:51] [Server thread/INFO]: [TreeFeller] Loading server plugin TreeFeller v1.22.1
+[13:47:51] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.20.0
+[13:47:51] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.20.0
+[13:47:51] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.3.3
+[13:47:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:47:51] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.98
+[13:47:52] [Server thread/INFO]:         __    
+[13:47:52] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.98
+[13:47:52] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[13:47:52] [Server thread/INFO]: 
+[13:47:52] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[13:47:52] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[13:47:52] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[13:47:52] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[13:47:53] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1624ms)
+[13:47:53] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[13:47:53] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[13:47:53] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[13:47:53] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[13:47:53] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[13:47:53] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.15+6463-5ca4dff
+[13:47:53] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[13:47:53] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[13:47:53] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[13:47:54] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.3.3
+[13:47:54] [Server thread/WARN]: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[13:47:54] [Server thread/WARN]: It seems like you're running on paper.
+[13:47:54] [Server thread/WARN]: This may cause issues.
+[13:47:54] [Server thread/WARN]: If you encounter any issues, please join my dicord: https://discord.gg/dBhfCzdZxq
+[13:47:54] [Server thread/WARN]: Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
+[13:47:54] [Server thread/WARN]: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[13:47:54] [Server thread/INFO]: Preparing level "world"
+[13:47:55] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:47:55] [Server thread/INFO]: Time elapsed: 206 ms
+[13:47:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:47:55] [Server thread/INFO]: Time elapsed: 60 ms
+[13:47:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:47:55] [Server thread/INFO]: Time elapsed: 42 ms
+[13:47:55] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9-beta1+2249-223b80c
+[13:47:55] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[13:47:55] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[13:47:55] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[13:47:55] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[13:47:55] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[13:47:55] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[13:47:55] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[13:47:55] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[13:47:55] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[13:47:55] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[13:47:55] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[13:47:55] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[13:47:55] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[13:47:55] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[13:47:55] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[13:47:55] [Server thread/INFO]: [WorldGuard] Loading region data...
+[13:47:56] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.2-SNAPSHOT (b59-2278589)
+[13:47:56] [Server thread/INFO]: [Lands] Enabling Lands v6.30.1
+[13:47:56] [Server thread/INFO]: [Lands]  _                        _      
+[13:47:56] [Server thread/INFO]: [Lands] | |                      | |     
+[13:47:56] [Server thread/INFO]: [Lands] | |      __ _  _ __    __| | ___ 
+[13:47:56] [Server thread/INFO]: [Lands] | |     / _` || '_ \  / _` |/ __|
+[13:47:56] [Server thread/INFO]: [Lands] | |____| (_| || | | || (_| |\__ \
+[13:47:56] [Server thread/INFO]: [Lands] \_____/ \__,_||_| |_| \__,_||___/
+[13:47:56] [Server thread/INFO]: [Lands] Version: 6.30.1 Previous: 6.30.1
+[13:47:56] [Server thread/INFO]: [Lands] Server: 1.20.x running Paper
+[13:47:56] [Server thread/INFO]: [Lands] Licensed to: 888480
+[13:47:56] [Server thread/INFO]: [Lands] Experiencing issues or having questions? Join our Discord!
+[13:47:56] [Server thread/INFO]: [Lands] Discord: https://discord.gg/B4MAJVk
+[13:47:56] [Server thread/INFO]: [Lands] Wiki: https://github.com/Angeschossen/Lands/wiki
+[13:47:56] [Server thread/INFO]: [Lands]  
+[13:47:56] [Server thread/INFO]: [Lands] Using SQLite.
+[13:47:56] [Server thread/INFO]: [Lands] Setting up tables...
+[13:47:56] [Server thread/INFO]: [Lands] Your SQL DBMS version: 3.42.0 (SQLite) Wiki: https://github.com/Angeschossen/Lands/wiki/Database
+[13:47:56] [Server thread/INFO]: [Lands] Successfully connected to SQL database.
+[13:47:56] [Server thread/INFO]: [Lands] Performing initial data load.
+[13:47:57] [Server thread/INFO]: [Lands] There are currently 9 created land(s).
+[13:47:57] [Server thread/INFO]: [Lands] Initial data load took 133 ms.
+[13:47:57] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.0
+[13:47:57] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[13:47:57] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[13:47:57] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[13:47:57] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[13:47:57] [Server thread/INFO]: [Essentials] Using locale en
+[13:47:57] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[13:47:57] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[13:47:57] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[13:47:57] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[13:47:57] [Server thread/INFO]: [SilkSpawners] Enabling SilkSpawners v7.5.0
+[13:47:58] [Server thread/INFO]: [SilkSpawners] WorldGuard was found and support is enabled
+[13:47:58] [Server thread/INFO]: [SilkSpawners] Loading support for v1_20_R1
+[13:47:58] [Server thread/INFO]: [SilkSpawners] AutoUpdater is enabled and now running.
+[13:47:58] [Server thread/INFO]: [SilkSpawners] BarAPI is disabled due to config setting.
+[13:47:58] [Server thread/INFO]: [TradeShop] Enabling TradeShop v2.6.0-STABLE
+[13:47:58] [Server thread/INFO]: [TradeShop] Data storage set to: FLATFILE
+[13:47:58] [Thread-11/INFO]: [TradeShop] [Updater] You are running the latest version of the plugin!
+[13:47:58] [Server thread/INFO]: [TradeShop] Metrics successfully initialized!
+[13:47:58] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.1.2-SNAPSHOT
+[13:47:58] [Server thread/INFO]: [TreeFeller] Enabling TreeFeller v1.22.1
+[13:47:58] [Server thread/INFO]: [TreeFeller] TreeFeller has been enabled! (Version 1.22.1) by ThizThizzyDizzy
+[13:47:58] [Server thread/INFO]: [Lands] [Integrations] 3rd party plugin hooking into Lands: TreeFeller
+[13:47:58] [Server thread/INFO]: [Lands] Nag author(s) of plugin TreeFeller. It uses the deprecated LandsIntegration of Lands: https://github.com/Angeschossen/LandsAPI/wiki/API-Update
+[13:47:58] [Server thread/INFO]: [TreeFeller] Server version: 1_20_R1
+[13:47:58] [Server thread/INFO]: [TreeFeller] Loaded global values:
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Startup Logs: true
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Default Enabled: true
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Scan Distance: 256
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 6
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 6
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Required Logs: 4
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Required Leaves: 10
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Max Logs: 250
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Max Height: 5
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Allow Partial: false
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Allow Partial Tool: false
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Player Leaves: false
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: false
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Ignore Leaf Data: false
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Require Cross Section: false
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Force Distance Check: false
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Decorations: [snow, vines, cocoa, weeping vines, moss]
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Max Horizontal Trunk Pillar Length: 6
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Max Trunks: 1
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Cutting Animation: false
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Anim Delay: 1
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Replant Saplings: false
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Use Inventory Saplings: false
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Spawn Saplings: 0
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Sapling Timeout: 50
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Grass: [GRASS_BLOCK, PODZOL, DIRT]
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Root Distance: 6
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Log Behavior: BREAK
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Leaf Behavior: BREAK
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Fall Hurt Amount: 2.0
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Fall Hurt Max: 40
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Directional Fall Behavior: RANDOM
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Overridables: [GRASS, SEAGRASS, TALL_GRASS, AIR, FERN, WATER, CAVE_AIR, LARGE_FERN, TALL_SEAGRASS]
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Lock Fall Cardinal: false
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Directional Fall Velocity: 0.35
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Vertical Fall Velocity: 0.05
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Explosive Fall Velocity: 0.0
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Random Fall Velocity: 0.0
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Fall Delay: 0
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Respect Unbreaking: true
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Respect Unbreakable: true
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Damage Mult: 1.0
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Stacked Tools: false
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Leaf Fortune: true
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Leaf Silk Touch: false
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Log Fortune: true
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Log Silk Touch: true
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Leave Stump: false
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Rotate Logs: true
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Drop Conversions: {BIRCH_WOOD=BIRCH_LOG, DARK_OAK_WOOD=DARK_OAK_LOG, OAK_WOOD=OAK_LOG, WARPED_HYPHAE=WARPED_STEM, JUNGLE_WOOD=JUNGLE_LOG, CRIMSON_HYPHAE=CRIMSON_STEM, SPRUCE_WOOD=SPRUCE_LOG, ACACIA_WOOD=ACACIA_LOG}
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Leaf Drop Chance: 1.0
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Log Drop Chance: 1.0
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Effects: []
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Consumed Food Base: 0.0
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Consumed Food Logs: 0.0
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Consumed Food Leaves: 0.0
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Consumed Health Base: 0.0
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Consumed Health Logs: 0.0
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Consumed Health Leaves: 0.0
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Prevent Breakage: false
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Enable Adventure: false
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Enable Survival: true
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Enable Creative: false
+[13:47:58] [Server thread/INFO]: [TreeFeller] - With Sneak: false
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Without Sneak: true
+[13:47:58] [Server thread/INFO]: [TreeFeller] - World Blacklist: false
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Cascade: false
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Parallel Cascade Limit: 1
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Cascade Check Limit: 64
+[13:47:58] [Server thread/INFO]: [TreeFeller] - MMOCore Trunk XP: {woodcutting=1.0}
+[13:47:58] [Server thread/INFO]: [TreeFeller] - MMOCore Leaves XP: {woodcutting=0.0}
+[13:47:58] [Server thread/INFO]: [TreeFeller] - MMOCore Tree XP: {woodcutting=0.0}
+[13:47:58] [Server thread/INFO]: [TreeFeller] - MMOCore Emulate Regen: false
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Compatibility MMOCore: true
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Compatibility Jobs: true
+[13:47:58] [Server thread/INFO]: [TreeFeller] - MCMMO Double Drops: true
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Compatibility mcMMO: true
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Compatibility mcMMO Classic: true
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Compatibility CoreProtect: true
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Compatibility WorldGuard: true
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Compatibility GriefPrevention: true
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Compatibility Towny: true
+[13:47:58] [Server thread/INFO]: [TreeFeller] - OreRegenerator Regen Delay: 1200
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Compatibility OreRegenerator: false
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Compatibility Drop2Inventory: true
+[13:47:58] [Server thread/INFO]: [TreeFeller] - EcoSkills Trunk XP: {Woodcutting=1.0}
+[13:47:58] [Server thread/INFO]: [TreeFeller] - EcoSkills Leaves XP: {woodcutting=0.0}
+[13:47:58] [Server thread/INFO]: [TreeFeller] - EcoSkills Tree XP: {woodcutting=0.0}
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Compatibility EcoSkills: true
+[13:47:58] [Server thread/INFO]: [TreeFeller] - EcoJobs Apply Multipliers: true
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Compatibility EcoJobs: true
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Compatibility LogBlock Legacy: true
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Compatibility LogBlock: true
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Compatibility Lands: true
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Compatibility PlaceholderAPI: true
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Compatibility SaberFactions: true
+[13:47:58] [Server thread/INFO]: [TreeFeller] - AureliumSkills Trunk XP: {foraging=1.0}
+[13:47:58] [Server thread/INFO]: [TreeFeller] - AureliumSkills Leaves XP: {foraging=0.0}
+[13:47:58] [Server thread/INFO]: [TreeFeller] - AureliumSkills Apply Modifiers: true
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Compatibility AureliumSkills: true
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Compatibility BlockRegen: false
+[13:47:58] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Trunk: OAK_LOG, OAK_WOOD
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Leaves: OAK_LEAVES
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Sapling: [OAK_SAPLING]
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[13:47:58] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Trunk: BIRCH_LOG, BIRCH_WOOD
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Leaves: BIRCH_LEAVES
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Sapling: [BIRCH_SAPLING]
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[13:47:58] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Trunk: SPRUCE_LOG, SPRUCE_WOOD
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Leaves: SPRUCE_LEAVES
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Sapling: [SPRUCE_SAPLING]
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
+[13:47:58] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Trunk: JUNGLE_LOG, JUNGLE_WOOD
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Leaves: JUNGLE_LEAVES
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Sapling: [JUNGLE_SAPLING]
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
+[13:47:58] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Trunk: DARK_OAK_LOG, DARK_OAK_WOOD
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Leaves: DARK_OAK_LEAVES
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Sapling: [DARK_OAK_SAPLING]
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
+[13:47:58] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Trunk: ACACIA_LOG, ACACIA_WOOD
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Leaves: ACACIA_LEAVES
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Sapling: [ACACIA_SAPLING]
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[13:47:58] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Trunk: OAK_LOG, OAK_WOOD
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Leaves: AZALEA_LEAVES, FLOWERING_AZALEA_LEAVES
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Sapling: [AZALEA, FLOWERING_AZALEA]
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[13:47:58] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Trunk: MANGROVE_LOG, MANGROVE_WOOD
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Leaves: MANGROVE_ROOTS, MANGROVE_LEAVES
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 16
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 16
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Required Logs: 3
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Max Horizontal Trunk Pillar Length: 16
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Max Trunks: 16
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Sapling: [MANGROVE_PROPAGULE]
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Roots: [MANGROVE_ROOTS]
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Root Distance: 16
+[13:47:58] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Trunk: CHERRY_LOG, CHERRY_WOOD
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Leaves: CHERRY_LEAVES
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Sapling: [CHERRY_SAPLING]
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[13:47:58] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Trunk: CRIMSON_STEM, CRIMSON_HYPHAE
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Leaves: NETHER_WART_BLOCK, SHROOMLIGHT
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 8
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 8
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Sapling: [CRIMSON_FUNGUS]
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Grass: [CRIMSON_NYLIUM]
+[13:47:58] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Trunk: WARPED_STEM, WARPED_HYPHAE
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Leaves: WARPED_WART_BLOCK, SHROOMLIGHT
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 8
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 8
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Sapling: [WARPED_FUNGUS]
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[13:47:58] [Server thread/INFO]: [TreeFeller] - Grass: [WARPED_NYLIUM]
+[13:47:58] [Server thread/INFO]: [TreeFeller] Loaded tool: WOODEN_AXE
+[13:47:58] [Server thread/INFO]: [TreeFeller] Loaded tool: STONE_AXE
+[13:47:58] [Server thread/INFO]: [TreeFeller] Loaded tool: IRON_AXE
+[13:47:58] [Server thread/INFO]: [TreeFeller] Loaded tool: GOLDEN_AXE
+[13:47:58] [Server thread/INFO]: [TreeFeller] Loaded tool: DIAMOND_AXE
+[13:47:58] [Server thread/INFO]: [TreeFeller] Loaded tool: NETHERITE_AXE
+[13:47:58] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.20.0
+[13:47:58] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[13:47:58] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.20.0
+[13:47:58] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[13:47:58] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[13:47:58] [Server thread/INFO]: [Geyser-Spigot] 
+[13:47:58] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.1.2-SNAPSHOT (git-master-3a0c1b7)
+[13:47:58] [Server thread/INFO]: [Geyser-Spigot] 
+[13:47:58] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[13:48:03] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
+[13:48:03] [Server thread/INFO]: [Geyser-Spigot] Done (4.166s)! Run /geyser help for help!
+[13:48:03] [Server thread/INFO]: Running delayed init tasks
+[13:48:03] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[13:48:03] [Server thread/INFO]: [SilkSpawners] Result from AutoUpdater is: NO_UPDATE
+[13:48:03] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
+[13:48:03] [Server thread/INFO]: [Lands] [Integrations] Successfully integrated LuckPerms for offline permission lookups.
+[13:48:03] [Server thread/INFO]: [Lands] [Integrations] Integrated geyser forms for Bedrock players.
+[13:48:03] [Craft Scheduler Thread - 7 - Vault/INFO]: [Vault] Checking for Updates ... 
+[13:48:03] [Server thread/INFO]: [Lands] Successfully added region provider: WorldGuard Type: SERVER
+[13:48:03] [Server thread/INFO]: Done (15.699s)! For help, type "help"
+[13:48:03] [Server thread/INFO]: Timings Reset
+[13:48:03] [Craft Scheduler Thread - 7 - Vault/INFO]: [Vault] No new version available
+[13:48:04] [Server thread/INFO]: [Lands] [Integrations] Successfully integrated Vault economy into economy system. Name: EssentialsX Economy Banks: true
+[13:48:04] [Server thread/INFO]: [Lands] [Integrations] Successfully integrated WorldEdit. Bypass: lands.bypass.worldedit Wilderness-Bypass: lands.bypass.wilderness.worldedit
+[13:48:04] [Server thread/INFO]: [Lands] [Integrations] Successfully loaded LuckPerms contexts. More information: https://github.com/Angeschossen/Lands/wiki/Luckperms-Context
+[13:48:08] [ForkJoinPool.commonPool-worker-2/INFO]: [Lands] There is a new version available: 6.32.7
+[13:55:06] [Server thread/INFO]: com.mojang.authlib.GameProfile@26220aef[id=<null>,name=ExiledHorse2,properties={},legacy=false] (/18.196.37.237:51554) lost connection: Disconnected
+[14:01:33] [User Authenticator #0/INFO]: UUID of player Weirdboy13 is 5d5f1823-673c-4b1a-979e-c0047044c2f7
+[14:01:33] [Server thread/INFO]: Weirdboy13 joined the game
+[14:01:33] [Server thread/INFO]: Weirdboy13[/5.132.108.110:60094] logged in with entity id 89 at ([world]1.447440662686738, 66.875, -15.308267532618245)
+[14:01:33] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 25.074512ms. Summary: Getting prefix for Weirdboy13
+[14:07:20] [Server thread/WARN]: Boat (vehicle of Weirdboy13) moved wrongly! 0.2500541925822972
+[14:07:20] [Server thread/WARN]: Boat (vehicle of Weirdboy13) moved wrongly! 0.2519640526875264
+[14:07:38] [Async Chat Thread - #2/INFO]: [Survival] Weirdboy13 > wwwwwwwww
+[14:07:41] [Server thread/INFO]: Weirdboy13 issued server command: /homes
+[14:07:54] [Server thread/INFO]: Weirdboy13 issued server command: /delhome farm
+[14:17:46] [Server thread/INFO]: [Not Secure] [Server] Yo
+[14:17:52] [Async Chat Thread - #3/INFO]: [Survival] Weirdboy13 > wwwwwwywwwwwwpwwwwwwwwwwwwwwwwwwwwwww
+[14:17:55] [Async Chat Thread - #4/INFO]: [Survival] Weirdboy13 > yo
+[14:18:01] [Async Chat Thread - #3/INFO]: [Survival] Weirdboy13 > had die macro nog aan woops
+[14:18:04] [Server thread/INFO]: [Not Secure] [Server] Nieuwe timber plugin
+[14:18:08] [Async Chat Thread - #4/INFO]: [Survival] Weirdboy13 > ik zag het
+[14:18:12] [Server thread/INFO]: [Not Secure] [Server] beter?
+[14:18:14] [Server thread/INFO]: [Not Secure] [Server] of niet
+[14:18:17] [Async Chat Thread - #3/INFO]: [Survival] Weirdboy13 > leaves gaan ook gelijk weg
+[14:18:19] [Server thread/INFO]: [Not Secure] [Server] ik moet alleen nog ff die config updaten
+[14:18:26] [Async Chat Thread - #4/INFO]: [Survival] Weirdboy13 > is wel chill
+[14:18:31] [Server thread/INFO]: [Not Secure] [Server] want die vorige fuckte te veel met buildings
+[14:18:59] [Server thread/INFO]: [Not Secure] [Server] ik ga weer verder werken
+[14:19:01] [Server thread/INFO]: [Not Secure] [Server] spreek je later
+[14:19:05] [Async Chat Thread - #3/INFO]: [Survival] Weirdboy13 > wwwwwwwwwrwwwwwwwuwwwwswwwwwwwwwwwwwwwwwww
+[14:19:07] [Async Chat Thread - #4/INFO]: [Survival] Weirdboy13 > rustig
+[14:19:11] [Server thread/INFO]: Checking version, please wait...
+[14:19:11] [Thread-19/INFO]: This server is running Paper version git-Paper-65 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: dadd8b5)
+You are 15 version(s) behind
+Download the new version at: https://papermc.io/downloads/paper
+[14:20:37] [Server thread/INFO]: Weirdboy13 issued server command: /homes
+[14:20:53] [Server thread/INFO]: Weirdboy13 issued server command: /delhome cavebase
+[14:21:51] [Server thread/INFO]: Weirdboy13 issued server command: /sethome shrooms
+[14:26:42] [Server thread/INFO]: [Not Secure] [Server] ga je geen rust?
+[14:26:45] [Server thread/INFO]: [Not Secure] [Server] of gewoon ff zin in mc?
+[14:26:55] [Async Chat Thread - #5/INFO]: [Survival] Weirdboy13 > gewoon zin in mc lekker chill
+[14:26:58] [Async Chat Thread - #6/INFO]: [Survival] Weirdboy13 > kom wrs vnv wel
+[14:27:04] [Server thread/INFO]: [Not Secure] [Server] nicee
+[14:38:13] [User Authenticator #1/INFO]: UUID of player soepkipz is a7f41ca7-8181-4894-b587-9873b8db301e
+[14:38:13] [Server thread/INFO]: soepkipz joined the game
+[14:38:13] [Server thread/INFO]: soepkipz[/77.160.60.129:59711] logged in with entity id 30178 at ([world]-25.5, 319.0, -46.5)
+[14:38:13] [Server thread/WARN]: [EssentialsSpawn] That kit does not exist.
+[14:38:50] [Server thread/INFO]: soepkipz issued server command: /warp survival
+[14:38:50] [Server thread/INFO]: [Essentials] soepkipz was denied access to command.
+[14:39:27] [Server thread/INFO]: [Not Secure] [Server] yo
+[14:39:30] [Async Chat Thread - #8/INFO]: [] soepkipz > yo
+[14:39:32] [luckperms-command-executor/INFO]: [LP] soepkipz had their existing parent groups cleared, and now only inherits survival (Survival) in context global.
+[14:39:33] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[14:39:35] [Server thread/INFO]: [Not Secure] [Server] alstu
+[14:39:40] [Async Chat Thread - #8/INFO]: [Survival] soepkipz > zakelijk
+[14:39:41] [Server thread/INFO]: [Not Secure] [Server] nu kan je shizzl doen
+[14:39:42] [Async Chat Thread - #9/INFO]: [Survival] soepkipz > danku
+[14:40:38] [Server thread/INFO]: soepkipz issued server command: /warp survival
+[14:40:38] [Server thread/WARN]: soepkipz moved too quickly! 248.78927282455484,-214.0,-96.03163383478827
+[14:42:31] [Server thread/INFO]: soepkipz has made the advancement [Stone Age]
+[14:42:37] [Server thread/INFO]: soepkipz has made the advancement [Getting an Upgrade]
+[14:43:39] [Server thread/INFO]: soepkipz lost connection: Disconnected
+[14:43:39] [Server thread/INFO]: soepkipz left the game
+[14:44:02] [Server thread/INFO]: [Not Secure] [Server] dat was snel
+[14:44:56] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /list 
+[14:44:56] [Server thread/INFO]: There are 1 out of maximum 20 players online.
+[14:44:56] [Server thread/INFO]: Survival: SurvivalWeirdboy13
+[14:47:49] [Server thread/INFO]: Villager EntityVillager['Villager'/38208, uuid='e8ab92c6-f186-4d65-acc4-aa1284e112de', l='ServerLevel[world]', x=-9526.63, y=63.56, z=-8024.28, cpos=[-596, -502], tl=191, v=true] died, message: 'Villager suffocated in a wall'
+[14:48:18] [Server thread/INFO]: [Not Secure] [Server] lmao
+[14:48:25] [Async Chat Thread - #11/INFO]: [Survival] Weirdboy13 > ?
+[14:48:36] [Server thread/INFO]: [Not Secure] [Server] 'Villager suffocated in a wall'
+[14:48:40] [Server thread/INFO]: [Not Secure] [Server] kreeg melding
+[14:48:42] [Async Chat Thread - #11/INFO]: [Survival] Weirdboy13 > rip
+[14:48:57] [Server thread/INFO]: [Not Secure] [Server] op -9500, 63, -8024
+[14:49:05] [Server thread/INFO]: A player is expected.
+[14:49:15] [Server thread/INFO]: A player is expected.
+[14:49:24] [Server thread/INFO]: Too many arguments.
+[14:49:24] [Server thread/INFO]: /locate [player]
+[14:49:27] [Server thread/INFO]: A player is expected.
+[14:49:30] [Server thread/INFO]: A player is expected.
+[14:49:52] [Server thread/INFO]: Villager EntityVillager['Villager'/39142, uuid='6ca65038-7135-4ddc-bbe0-04d5230cd4e7', l='ServerLevel[world]', x=-9595.37, y=63.56, z=-8325.72, cpos=[-600, -521], tl=191, v=true] died, message: 'Villager suffocated in a wall'
+[14:50:06] [Server thread/INFO]: [Not Secure] [Server] nog eentje, wtf
+[14:50:22] [Server thread/INFO]: [Not Secure] [Server] Nog eentje gestikt in blokken
+[14:50:31] [Async Chat Thread - #13/INFO]: [Survival] Weirdboy13 > they just suicidal
+[14:50:52] [Server thread/INFO]: Villager EntityVillager['Villager'/39913, uuid='7f11c1cb-1a2f-4af5-a319-28883fc70dd9', l='ServerLevel[world]', x=-9997.72, y=64.00, z=-8376.63, cpos=[-625, -524], tl=191, v=true] died, message: 'Villager suffocated in a wall'
+[14:50:54] [Server thread/INFO]: Villager EntityVillager['Villager'/39929, uuid='b9eee138-89e1-49d1-98f2-0aa1bd60f4da', l='ServerLevel[world]', x=-10002.72, y=64.00, z=-8376.63, cpos=[-626, -524], tl=191, v=true] died, message: 'Villager suffocated in a wall'
+[14:53:34] [Server thread/INFO]: [Not Secure] [Server] nog 2
+[14:53:36] [Server thread/INFO]: [Not Secure] [Server] hoyl shit
+[15:01:27] [User Authenticator #2/INFO]: UUID of player soepkipz is a7f41ca7-8181-4894-b587-9873b8db301e
+[15:01:27] [Server thread/INFO]: soepkipz joined the game
+[15:01:27] [Server thread/INFO]: soepkipz[/77.160.60.129:60963] logged in with entity id 48376 at ([world]403.5549098863333, 63.0, -22.896927973760345)
+[15:04:41] [Server thread/WARN]: Boat (vehicle of soepkipz) moved wrongly! 0.4104885701248574
+[15:04:41] [Server thread/WARN]: Boat (vehicle of soepkipz) moved wrongly! 0.4104885701248574
+[15:04:41] [Server thread/WARN]: Boat (vehicle of soepkipz) moved wrongly! 0.4104885701248574
+[15:07:01] [Server thread/INFO]: Weirdboy13 issued server command: /homes
+[15:07:51] [Server thread/INFO]: soepkipz has made the advancement [Suit Up]
+[15:07:51] [Server thread/INFO]: soepkipz has made the advancement [Isn't It Iron Pick]
+[15:07:52] [Server thread/INFO]: soepkipz has made the advancement [Ice Bucket Challenge]
+[15:08:20] [Server thread/INFO]: Weirdboy13 issued server command: /sethome far
+[15:08:23] [Server thread/INFO]: Weirdboy13 issued server command: /home bed
+[15:08:28] [Server thread/INFO]: Weirdboy13 lost connection: Disconnected
+[15:08:28] [Server thread/INFO]: Weirdboy13 left the game
+[15:08:40] [Server thread/INFO]: soepkipz lost connection: Disconnected
+[15:08:40] [Server thread/INFO]: soepkipz left the game
+[15:08:41] [Server thread/INFO]: Stopping the server
+[15:08:41] [Server thread/INFO]: Stopping server
+[15:08:41] [Server thread/INFO]: [PlugManX] Disabling PlugManX v2.3.3
+[15:08:41] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.20.0
+[15:08:41] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.20.0
+[15:08:41] [Server thread/INFO]: [TreeFeller] Disabling TreeFeller v1.22.1
+[15:08:41] [Server thread/INFO]: [TreeFeller] TreeFeller has been disabled! (Version 1.22.1) by ThizThizzyDizzy
+[15:08:41] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.1.2-SNAPSHOT
+[15:08:41] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[15:08:41] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[15:08:41] [Server thread/INFO]: [TradeShop] Disabling TradeShop v2.6.0-STABLE
+[15:08:41] [Server thread/INFO]: [SilkSpawners] Disabling SilkSpawners v7.5.0
+[15:08:41] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.0
+[15:08:41] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[15:08:41] [WebSocketConnectReadThread-382/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[15:08:41] [Server thread/INFO]: [Lands] Disabling Lands v6.30.1
+[15:08:41] [Server thread/INFO]: [Lands] Closing storage.
+[15:08:41] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.2-SNAPSHOT (b59-2278589)
+[15:08:41] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9-beta1+2249-223b80c
+[15:08:41] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[15:08:41] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.15+6463-5ca4dff
+[15:08:41] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[15:08:41] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[15:08:41] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.98
+[15:08:41] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[15:08:41] [Server thread/INFO]: [LuckPerms] Closing storage...
+[15:08:41] [Server thread/INFO]: [LuckPerms] Goodbye!
+[15:08:41] [Server thread/INFO]: Saving players
+[15:08:41] [Server thread/INFO]: Saving worlds
+[15:08:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:08:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[15:08:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[15:08:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[15:08:42] [Server thread/INFO]: [ChunkHolderManager] Saved 298 block chunks, 360 entity chunks, 19 poi chunks in world 'world' in 0.42s
+[15:08:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:08:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[15:08:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[15:08:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[15:08:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[15:08:42] [Server thread/INFO]: [ChunkHolderManager] Saved 3 block chunks, 17 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[15:08:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:08:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[15:08:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[15:08:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[15:08:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[15:08:42] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[15:08:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:08:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:08:42] [Server thread/INFO]: Flushing Chunk IO
+[15:08:42] [Server thread/INFO]: Closing Thread Pool
+[15:08:42] [Server thread/INFO]: Closing Server

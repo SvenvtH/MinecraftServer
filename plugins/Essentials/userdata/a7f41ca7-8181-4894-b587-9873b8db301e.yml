@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 77.160.60.129
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1689345638160
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1689347320056
+  login: 1689346887350
+money: '0'
+last-account-name: soepkipz
+lastlocation:
+  world: 99daf602-e152-4720-87ae-1013a4aa1c73
+  world-name: world
+  x: -33.28927282455484
+  y: 307.0
+  z: -40.46836616521174
+  yaw: -22.835113525390625
+  pitch: 14.719956398010254
+logoutlocation:
+  world: 99daf602-e152-4720-87ae-1013a4aa1c73
+  world-name: world
+  x: -127.65543291200493
+  y: 72.0
+  z: 1333.1725418642484
+  yaw: -174.00576782226562
+  pitch: 29.299110412597656
