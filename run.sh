@@ -1,2 +1,2 @@
-java -Xmx8G -jar paper-server.jar
+java -Xmx12G -jar paper-server.jar
 PAUSE

@@ -87,7 +87,7 @@ cutting-animation: false
 anim-delay: 1
 
 # Should saplings be replanted?
-replant-saplings: false
+replant-saplings: true
 
 # Should saplings be taken from the player's inventory to replant trees?
 use-inventory-saplings: false
@@ -128,7 +128,7 @@ root-distance: 6
 # FALL_NATURAL_INVENTORY      blocks will fall as falling blocks, break, and appear in the player's inventory upon reaching the ground. Blocks will attempt to target a position to land as if the tree fell over realistically
 # FALL_NATURAL_HURT_INVENTORY blocks will fall as falling blocks, break, hurt entities they land on, and appear in the player's inventory upon reaching the ground. Blocks will attempt to target a position to land as if the tree fell over realistically
 # Note that falling blocks occasionally drop as items if they land wrong
-log-behavior: BREAK
+log-behavior: INVENTORY
 
 # What felling behavior should leaves have?
 # Valid options:
